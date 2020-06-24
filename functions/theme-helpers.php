@@ -28,6 +28,14 @@ remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
 remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
 //REMOVE EDITOR EMOJIS
 add_filter( 'tiny_mce_plugins', 'disable_emoji_tinymce' );
+
+//Remove Gutenberg Block Library CSS from loading on the frontend
+function smartwp_remove_wp_block_library_css(){
+ wp_dequeue_style( 'wp-block-library' );
+ wp_dequeue_style( 'wp-block-library-theme' );
+ wp_dequeue_style( 'wc-block-style' ); // Remove WooCommerce block CSS
+}
+add_action( 'wp_enqueue_scripts', 'smartwp_remove_wp_block_library_css', 100 );
   
 //REMOVE DNS PREFETCH
 add_filter( 'emoji_svg_url', '__return_false' );
@@ -77,10 +85,7 @@ function excerpt_read_more_link($output)
 add_filter('the_excerpt', 'excerpt_read_more_link');
 //REMOVE COMMENTS FEED RSS
 add_filter( 'feed_links_show_comments_feed', '__return_false' );
-//REMOVE JSON API
-remove_action( 'wp_head', 'rest_output_link_wp_head');
-remove_action( 'wp_head', 'wp_oembed_add_discovery_links');
-remove_action( 'template_redirect', 'rest_output_link_header', 11);
+
 //REMOVE WP VERSION FROM CODE
 function intSound_remove_version() {
 return '';
