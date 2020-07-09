@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light bg-dark">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
 	<div class="logo-wrapper">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
 			<?php $uploads = wp_upload_dir(); 

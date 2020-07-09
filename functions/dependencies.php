@@ -11,6 +11,7 @@ add_action('wp_enqueue_scripts', 'enqueue_site_scripts');
 function enqueue_site_styles() {
     wp_enqueue_style('bootstrap-4.5.0', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', array(), null);
     wp_enqueue_style('theme-styles', get_template_directory_uri() . '/assets/styles/siteStyles.min.css');
+    wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 }
 add_action('wp_enqueue_scripts', 'enqueue_site_styles');
 
