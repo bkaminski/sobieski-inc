@@ -1,3 +1,6 @@
+<div class="statement text-center">
+	<p class="font-weight-bold"><span class="essential">AN ESSENTIAL SERVICE PROVIDER.</span> Read our Statement on Coronavirus</p>
+</div>
 <nav class="navbar navbar-expand-md navbar-light bg-light">
 	<div class="logo-wrapper">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">

@@ -1,0 +1,31 @@
+.navbar-light .navbar-nav {
+  .nav-link {
+    color: #616161;
+    font-size: 0.8rem;
+    transition: 0.4s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -25px;
+
+    &:hover {
+      color: #11aeff;
+      text-decoration: underline;
+      transition: 0.4s ease-in-out;
+    }
+  }
+
+  .active > .nav-link {
+    color: #11aeff;
+    text-decoration: underline;
+    transition: 0.4s ease-in-out;
+  }
+}
+//phone numbers in header
+.navbar-light .navbar-nav .phone-numbers .nav-link  {
+	color: #af2525;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .3rem;
+    padding-left: .3rem;
+}
