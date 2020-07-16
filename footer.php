@@ -4,6 +4,8 @@
 
 		<?php get_template_part( 'parts/page', 'footer-mailchimp' ); ?>
 
+		<?php get_template_part( 'parts/page', 'footer-menu' ); ?>
+
 	</div>
 </footer>
 <?php wp_footer(); ?>
