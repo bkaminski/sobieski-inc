@@ -34,5 +34,8 @@
 	</div>
 </nav>
 <div class="phone-numbers d-none d-lg-block">
-	<p class="">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
+	<p>Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
+</div>
+<div class="phone-numbers d-block d-lg-none">
+	<p>Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 </div>

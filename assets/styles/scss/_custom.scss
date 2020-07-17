@@ -6,8 +6,9 @@
 	z-index: 1;
 }
 .logo-img {
-	padding-top: 50px;
+	padding-top: 0px;
 	width: 35%;
+	transition: 0.4s ease-in-out;
 	@include breakpoint (sm) {
 		padding-top: 50px;
 		margin-left: -200px;
@@ -21,13 +22,59 @@
 	@include breakpoint (lg) {
 		padding-top: 67px;
 		margin-left: 8.5px;
-		width: 520px;
+		width: 480px;
 	}
+}
+.kill-padding {
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .home-main {
 	width: 100%;
 	min-height: 500px;
-	background: #ccc;
+	background: #222;
+}
+.commercial {
+	position: relative;
+	padding-top: 150px;
+	background: #222;
+	background-image: url('../../../../uploads/2020/07/splash-commercial.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:top center;
+	min-height: 500px;
+	transition: 0.3s ease-in-out;
+	z-index: 0;
+	//&:hover {
+	//	opacity: 0.7;
+	//	transition: 0.3s ease-in-out;
+//	}
+}
+.homeowner {
+	position: relative;
+	padding-top: 150px;
+	background: #222;
+	background-image: url('../../../../uploads/2020/07/splash-homeowner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:top center;
+	min-height: 500px;
+	transition: 0.3s ease-in-out;
+	//&:hover {
+	//	opacity: 0.7;
+	//	transition: 0.3s ease-in-out;
+//	}
+}
+.main-heading {
+	position: relative;
+	font-size: 3rem;
+	color: #fff;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		text-decoration: none;
+		color: #11aeff;
+		transition: 0.3s ease-in-out;
+	}
 }
 .hamburger {
 	position: relative;
@@ -94,6 +141,8 @@
 	padding-top: 10px;
 	background-color: #EBB232;
 	z-index: 10;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .essential {
 	color: #ff0000;
