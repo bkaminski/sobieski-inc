@@ -1,4 +1,5 @@
 <footer class="footer">
+<a href="#" id="scroll" style="display: none;"><span></span></a>
 	<div class="container">
 		<h2 class="foot-heading">Sign up for our newsletter</h2>
 
@@ -8,6 +9,7 @@
 
 	</div>
 </footer>
+
 <?php wp_footer(); ?>
 </body>
 </html>
