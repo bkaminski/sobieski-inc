@@ -272,7 +272,11 @@
 	background-position:top center;
 }
 .wwa-text {
-	padding: 100px;
+	display: block;
+	padding: 15px;
+	@include breakpoint (md) {
+		padding: 100px;
+	}
 }
 .geo-map {
 	min-height: 315px;
@@ -281,5 +285,4 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position:top center;
-	//opacity: 0.35;
 }
