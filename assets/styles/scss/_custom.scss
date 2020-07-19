@@ -228,6 +228,7 @@
   -moz-border-radius: 60px;
   border-radius: 60px;
   transition: 0.2s ease-in-out;
+  z-index: 10;
 
   span {
     position: absolute;
