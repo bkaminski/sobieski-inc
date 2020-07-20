@@ -1,5 +1,4 @@
-		<?php $featImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
-		<?php
+	<?php
 			$args=array(
 				'post_type' => 'post',
 				'post_status' => 'publish',
@@ -11,23 +10,28 @@
 
 			if( $my_query->have_posts() ) {
 
+
 				$i = 0;
 				while ($my_query->have_posts()) : $my_query->the_post();
 					if($i % 3 == 0) { ?>
 
-						<div class="row">
+
+						<div class="row pb-4">
 							<div class="card-deck">
 							<?php } ?>
 
 							<div class="col-md-4">
 								<div class="card">
-									<img src="<?php echo $featImg['0'];?>" class="card-img-top" alt="...">
+									<?php  $featImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
+									<img src="<?php echo $featImg['0'];?>" class="card-img-top" alt="">
 									<div class="card-body">
-									<h1 class="card-title"><?php the_title(); ?></h1>
-									<div class="card-text">
-										<?php the_excerpt(); ?>
+										<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+											<h1 class="card-title"><?php the_title(); ?></h1>
+										</a>
+										<div class="card-text">
+											<?php the_excerpt(); ?>
 
-									</div>
+										</div>
 									</div>
 
 								</div>
@@ -43,3 +47,6 @@
 						<?php endwhile; } wp_reset_query(); 
 
 		?>
+<div class="col pt-5">
+	<?php echo sobieski_pagination(); ?>
+</div>
