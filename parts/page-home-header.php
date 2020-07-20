@@ -1,4 +1,4 @@
-<header class="home-header">
+<section class="home-header">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 kill-padding">
@@ -33,4 +33,4 @@
 			</div>
 		</div>
 	</div>
-</header>
+</section>

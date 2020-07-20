@@ -1,52 +1,31 @@
-	<?php
-			$args=array(
-				'post_type' => 'post',
-				'post_status' => 'publish',
-				'posts_per_page' => 18
-			);
+<div class="container">
+	<div class="row justify-content-between">
+		<?php $the_query=new WP_Query( array( 'category_name' => 'blog' ) ); ?>
+		<?php if ( $the_query->have_posts() ) : ?>
+			<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+				<?php $featured_img_url=get_the_post_thumbnail_url(get_the_ID(), 'full'); ?>
+				
+				<div class="col-lg-4 pb-3">
+					<div class="card mb-2 rounded-0 shadow">
+						<img class="card-img-top" src="<?php echo $featured_img_url ?>" alt="">
+						<div class="card-body">
+							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+								<h4 class="card-title main-header-blog"><?php the_title(); ?></h4>
+							</a>
+							<?php the_excerpt(); ?>
 
-			$my_query = null;
-			$my_query = new WP_Query($args);
-
-			if( $my_query->have_posts() ) {
-
-
-				$i = 0;
-				while ($my_query->have_posts()) : $my_query->the_post();
-					if($i % 3 == 0) { ?>
-
-
-						<div class="row pb-4">
-							<div class="card-deck">
-							<?php } ?>
-
-							<div class="col-md-4">
-								<div class="card">
-									<?php  $featImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
-									<img src="<?php echo $featImg['0'];?>" class="card-img-top" alt="">
-									<div class="card-body">
-										<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-											<h1 class="card-title"><?php the_title(); ?></h1>
-										</a>
-										<div class="card-text">
-											<?php the_excerpt(); ?>
-
-										</div>
-									</div>
-
-								</div>
-							</div>
-
-							<?php $i++;
-							if($i != 0 && $i % 3 == 0) { ?>
-
-							</div>
 						</div>
-						<div class="clearfix"></div>
-						<?php } ?>
-						<?php endwhile; } wp_reset_query(); 
+					</div>
+				</div>
+			<?php endwhile; ?>
+			<?php wp_reset_postdata(); ?>
+			<?php else : ?>
+				<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 
-		?>
-<div class="col pt-5">
-	<?php echo sobieski_pagination(); ?>
+    	<?php endif; ?>
+  </div>
+  <div class="col pt-5">
+  	<?php echo sobieski_pagination(); ?>
+  		
+  </div>
 </div>
