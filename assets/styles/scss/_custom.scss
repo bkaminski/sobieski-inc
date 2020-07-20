@@ -305,3 +305,31 @@
 	min-height: 160px;
 	background: #f4f4f4;
 }
+.page-link-active {
+  position: relative;
+  display: block;
+  padding: .5rem .75rem;
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #fff;
+  background-color: #11aeff;
+  border: 1px solid #dee2e6;
+
+  &:hover {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #fff;
+    background-color: #11aeff;
+    border: 1px solid #dee2e6;
+  }
+}
+.excerpt-card {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left: 15px;
+	margin-bottom: 15px;
+}
