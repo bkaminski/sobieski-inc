@@ -24,7 +24,7 @@
 							<textarea class="form-control rounded-0" placeholder="Question or Comment" required="required"></textarea>
 						</div>
 					</div>
-					<button type="submit" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Learn More</button>
+					<button type="submit" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Contact Us!</button>
 				</form>
 			</div>
 		</div>

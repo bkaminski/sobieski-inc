@@ -6,7 +6,7 @@
 </article>
 
 <section>
-	<?php get_template_part( 'parts/page', 'blog-sign-up' ); ?>
+	<?php get_template_part( 'parts/page', 'contact-us' ); ?>
 
 </section>
 

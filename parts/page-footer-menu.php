@@ -4,11 +4,11 @@
 			<li class="pb-3">About</li>
 			<li class="pb-3">Coronavirus Statement</li>
 			<li class="pb-3">Promotions</li>
-			<li class="pb-3"><a href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
 			<li class="pb-3">Careers</li>
 			<li class="pb-3">Certifications</li>
 			<li class="pb-3">Our Safety Programs</li>
-			<li>Contact Us</li>
+			<li><a class="text-white" href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></li>
 		</ul>
 	</div>
 	<div class="col-sm-4">
