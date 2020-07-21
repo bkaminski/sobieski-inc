@@ -7,8 +7,8 @@
 				<p class="text-white">Sobieski will find the right solution for you.</p>
 			</div>
 			<div class="col-md-9">
-				<form class="pt-5">
-					<div class="form-row">
+				<form>
+					<div class="form-row pt-5">
 						<div class="col-sm-4 pb-2">
 							<input type="text" class="form-control rounded-0" placeholder="Full Name" required="required">
 						</div>
