@@ -26,7 +26,7 @@
 									<img src="<?php echo $featImg['0'];?>" class="card-img-top" alt="">
 									<div class="card-body">
 										<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-											<h1 class="card-title"><?php the_title(); ?></h1>
+											<h1 class="card-title main-header-left"><?php the_title(); ?></h1>
 										</a>
 										<div class="card-text pb-5">
 											<?php the_excerpt(); ?>
