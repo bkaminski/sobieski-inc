@@ -23,4 +23,13 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-	<?php get_template_part( 'parts/home', 'nav' ); ?>
+	<?php if ( is_front_page() ) {
+		echo get_template_part( 'parts/page', 'nav' );
+	} elseif ( is_home () ) {
+		echo get_template_part ('parts/page', 'nav');
+	} elseif ( is_page ( array( 'promotions', 'careers', 'certifications', 'contact-us', 'about', 'coronavirus-statement' ) ) ) {
+		echo get_template_part ('parts/page', 'nav');
+	} elseif ( is_page ( array( 'commercial' ) ) ) {
+		echo get_template_part ('parts/page', 'commercial-nav');
+	} else {}
+	?>
