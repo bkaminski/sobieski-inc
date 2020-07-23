@@ -13,7 +13,7 @@
 	</div>
 	<div class="col-sm-4">
 		<ul class="list-unstyled text-uppercase text-white">
-			<li class="pb-3">Commercial</li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/commercial">Commercial</a></li>
 			<li class="pb-3">Facility Managers</li>
 			<li class="pb-3">General Contractors</li>
 			<li class="pb-3">Homebuilders</li>

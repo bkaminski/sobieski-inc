@@ -13,7 +13,7 @@
 						<li>Home Builders</li>
 						<li>Business & Property Owners</li>
 					</ul>
-					<button class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 font-weight-bold">Read More</button>
+					<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 font-weight-bold">Read More</a>
 				</div>
 			</div>
 			<div class="col-md-6 kill-padding">
