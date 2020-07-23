@@ -4,7 +4,7 @@
 			<div class="col-md-6 kill-padding">
 				<div class="commercial text-center">
 					<h1 class="main-header-hero text-uppercase font-weight-bold">
-						<a class="main-heading" href="#">Commercial</a>
+						<a class="main-heading" href="<?php echo get_home_url(); ?>/commercial">Commercial</a>
 					</h1>
 					<ul class="list-unstyled text-white">
 						<li>All-In-One Solutions For:</li>
