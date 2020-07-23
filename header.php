@@ -27,6 +27,8 @@
 		echo get_template_part( 'parts/page', 'nav' );
 	} elseif ( is_home () ) {
 		echo get_template_part ('parts/page', 'nav');
+	} elseif (is_single() ) {
+		echo get_template_part ('parts/page', 'nav');
 	} elseif ( is_page ( array( 'promotions', 'careers', 'certifications', 'contact-us', 'about', 'coronavirus-statement' ) ) ) {
 		echo get_template_part ('parts/page', 'nav');
 	} elseif ( is_page ( array( 'commercial' ) ) ) {
