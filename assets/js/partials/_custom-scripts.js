@@ -21,7 +21,7 @@ if($('li.page-link').attr('href') === undefined) {
 }
 
 //Check if page is blog then add class to read more button
-if ($('.blog')[0]){
+if ($('.blog, .page-template-page-commercial-php')[0]){
     $('.excerpt-button').addClass('excerpt-card');
 } else {
     // Do nothing

@@ -4,7 +4,7 @@
 			<?php query_posts('orderby=DESC&posts_per_page=3'); if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 			<div class="col-lg card-deck mb-5">
-				<div class="card border-info shadow">
+				<div class="card shadow">
 					<figure class="boxImg">
 						<a href="<?php the_permalink(); ?>">
 							<?php  $featImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' ); ?>
@@ -17,11 +17,14 @@
 						<div class="mb-3">
 							<em><?php the_date('l, F j, Y'); ?></em>
 						</div>
-						<?php the_excerpt(); ?>
+						<div class="card-text mb-5">
+							<?php the_excerpt(); ?>
 
+						</div>
 					</div>
 				</div>
 			</div>
-		<?php endwhile; ?> <?php wp_reset_query(); ?>
+			<?php endwhile; ?> <?php wp_reset_query(); ?>
+		</div>
 	</div>
 </section>

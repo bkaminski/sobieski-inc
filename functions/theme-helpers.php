@@ -4,8 +4,6 @@ add_theme_support( 'align-wide' );
 add_theme_support( 'responsive-embeds' );
 //HTML 5 SUPPORT
 add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
-//HIDE ADMIN BAR FROM FRONT END
-show_admin_bar(false);
 //TITLE TAG SUPPORT
 add_theme_support( 'title-tag' );
 //ALLOW POSTS AND PAGES FEATURED IMAGE
