@@ -45,6 +45,8 @@ get_header(); ?>
 		</div>
 	</div>
 
+<?php get_template_part( 'parts/page', 'rand-posts' ); ?>
+
 <?php get_template_part( 'parts/home', 'geo-map' ); ?>
 
 <?php get_template_part( 'parts/page', 'affiliates' ); ?>

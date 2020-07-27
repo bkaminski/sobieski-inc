@@ -1,5 +1,5 @@
 
-	<?php $backgroundImg = wp_get_attachment_image_src(get_post_thumbnail_id(3524), 'full' );?>
+	<?php $backgroundImg = wp_get_attachment_image_src(get_post_thumbnail_id(3554), 'full' );?>
 	
 	<div class="title-wrapper" style="background-image:url('<?php echo $backgroundImg[0]; ?>');background-repeat: no-repeat;background-size: cover;">
 		<div class="container">
