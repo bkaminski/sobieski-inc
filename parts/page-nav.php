@@ -19,18 +19,29 @@
 		<i class="fas fa-bars fa-2x"></i>
 	</button>
 	<div class="collapse navbar-collapse" id="sobieskiNav">
-		<?php
-		wp_nav_menu( array(
-			'theme_location'    => 'primary',
-			'depth'             => 2,
-			'container'         => '',
-			'container_class'   => '',
-			'container_id'      => '',
-			'menu_class'        => 'navbar-nav ml-auto',
-			'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-			'walker'            => new WP_Bootstrap_Navwalker(),
-		)); ?>
-		
+		<div class="flex-column ml-auto">
+			<?php
+			wp_nav_menu( array(
+				'theme_location'    => 'primary',
+				'depth'             => 2,
+				'container'         => '',
+				'container_class'   => '',
+				'container_id'      => '',
+				'menu_class'        => 'navbar-nav ml-auto',
+				'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+				'walker'            => new WP_Bootstrap_Navwalker(),
+			)); ?>
+			<form class="form-inline float-lg-right" method="get" id="searchform" action="<?php echo home_url() ; ?>/">
+				<div class="input-group input-group-sm">
+					<input class="form-control" type="text" placeholder="Search our site" value="<?php echo esc_html($s, 1); ?>" name="s" id="s" maxlength="33" required />
+					<div class="input-group-append">
+						<button class="btn btn-outline-sobieski my-sm-0" type="submit">
+							<i class="fas fa-search fa-lg fa-fw"></i>
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
 	</div>
 </nav>
 <div class="phone-numbers d-none d-lg-block">

@@ -148,6 +148,7 @@
 	color: #ff0000;
 }
 .phone-numbers {
+	background: #f8f9fa;
 	position: relative;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -415,6 +416,18 @@
 	background-size: cover;
 	background-position:center center;
 }
+.managers {
+	width: 100%;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 200px;
+	min-height: 460px;
+	background-image: url('../../../../uploads/2020/07/commercial-persona-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center center;
+}
 .related-posts {
 	min-height: 500px;
 	width: 100%;
@@ -425,4 +438,11 @@
 	min-height: 260px;
 	background: #f4f4f4;
 	padding-top: 1.5rem;
+}
+.commercial-nav  {
+	margin-top: -40px;
+}
+.sobieski-main-nav {
+	position: relative;
+	float: right;
 }
