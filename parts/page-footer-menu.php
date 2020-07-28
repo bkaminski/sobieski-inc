@@ -17,7 +17,7 @@
 			<li class="pb-3">Facility Managers</li>
 			<li class="pb-3">General Contractors</li>
 			<li class="pb-3">Homebuilders</li>
-			<li>Business &amp; Property Owners</li>
+			<li><a class="text-white" href="<?php echo get_home_url(); ?>/audience/business-property-owners">Commercial Business &amp; Property Owners</a></li>
 		</ul>
 	</div>
 	<div class="col-sm-4">
