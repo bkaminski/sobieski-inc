@@ -29,9 +29,24 @@
 		echo get_template_part ('parts/page', 'nav');
 	} elseif (is_single() ) {
 		echo get_template_part ('parts/page', 'nav');
-	} elseif ( is_page ( array( 'promotions', 'careers', 'certifications', 'contact-us', 'about', 'coronavirus-statement' ) ) ) {
+	} elseif ( is_page ( array( 
+		'promotions', 
+		'careers', 
+		'certifications', 
+		'contact-us', 
+		'about', 
+		'coronavirus-statement' 
+	) ) ) {
 		echo get_template_part ('parts/page', 'nav');
-	} elseif ( is_page ( array( 'commercial', 'business-property-owners' ) ) ) {
+	} elseif ( is_page ( array( 
+		'commercial', 
+		'business-property-owners',
+		'general-contractors',
+		'home-builders',
+		'facility-managers',
+	) ) ) {
 		echo get_template_part ('parts/page', 'commercial-nav');
-	} else {}
+	} else {
+		echo get_template_part( 'parts/page', 'nav' );
+	}
 	?>

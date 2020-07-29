@@ -24,6 +24,21 @@
 							<input type="email" class="form-control rounded-0" placeholder="Email Address" required="required">
 						</div>
 					</div>
+					<?php if ( is_page( array(
+						'commercial',
+						'business-property-owners',
+						'general-contractors',
+						'home-builders',
+						'facility-managers',
+					) ) ) { ?>
+						<div class="form-row pt-2">
+							<div class="col-sm-12 pb-2">
+								<input type="text" class="form-control rounded-0" placeholder="Business Name" required="required">
+							</div>
+						</div>
+					<?php } else {
+
+					} ?>
 					<div class="form-row pt-2">
 						<div class="col-sm-12">
 							<textarea class="form-control rounded-0" placeholder="Question or Comment" required="required"></textarea>

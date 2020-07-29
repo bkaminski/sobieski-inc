@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Commercial
+* Template Name: Commercial Main Page
 *
 * @package WordPress
 * @subpackage Sobieski Inc

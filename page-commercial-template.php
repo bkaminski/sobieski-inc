@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Business Property Owners
+* Template Name: Commercial Pages
 *
 * @package WordPress
 * @subpackage Sobieski Inc

@@ -8,21 +8,21 @@
 				</div>
 			</div>
 			<div class="col-md-3 kill-padding">
-				<div class="gen-contract">
+				<div class="gen-contract text-center">
 					<h1 class="text-white text-uppercase text-center h3 font-weight-bold">General Contractors</h1>
-					<button type="submit" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase mx-auto d-block">Learn More</button>
+					<a href="<?php echo get_home_url(); ?>/audience/general-contractors" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Learn More</a>
 				</div>
 			</div>
 			<div class="col-md-3 kill-padding">
-				<div class="home-build">
+				<div class="home-build text-center">
 					<h1 class="text-white text-uppercase text-center h3 font-weight-bold">Home Builders</h1>
-					<button type="submit" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase mx-auto d-block">Learn More</button>
+					<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Learn More</a>
 				</div>
 			</div>
 			<div class="col-md-3 kill-padding">
-				<div class="managers">
+				<div class="managers text-center">
 					<h1 class="text-white text-uppercase text-center h3 font-weight-bold">Facility Managers</h1>
-					<button type="submit" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase mx-auto d-block">Learn More</button>
+					<a href="<?php echo get_home_url(); ?>/audience/facility-managers" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Learn More</a>
 				</div>
 			</div>
 		</div>
