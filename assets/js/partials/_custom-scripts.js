@@ -37,4 +37,14 @@ if ($('.blog, .page-template-page-commercial-php')[0]){
     // Do nothing
 }
 
+//TRIGGER SEARCH MODAL
+    $(".sobieski-search-modal").click(function(){
+        $("#searchModal").modal('show');
+    });
+
+    //FOCUS SEARCH INPUT
+    $('#searchModal').on('shown.bs.modal', function () {
+    	$('#searchSobieski').trigger('focus')
+    });
+
 })( jQuery );
