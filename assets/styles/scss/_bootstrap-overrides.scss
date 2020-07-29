@@ -61,3 +61,14 @@
 .dropdown-item {
 	font-size: 12px;
 }
+.modal {
+    overflow-y: auto;
+    padding-right: 0px !important;
+}
+.modal-open {
+    overflow: auto;
+}
+.modal-open[style] {
+    padding-right: 0px !important;
+} 
+
