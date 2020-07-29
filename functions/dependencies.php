@@ -20,5 +20,6 @@ add_action('wp_enqueue_scripts', 'enqueue_site_styles');
 require_once get_template_directory() . '/functions/class-wp-bootstrap-navwalker.php';
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'sobieski-inc' ),
+    'commercial' => __( 'Commercial Menu', 'sobieski-inc'),
 ));
 // Nav Walker

@@ -31,16 +31,6 @@
 				'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 				'walker'            => new WP_Bootstrap_Navwalker(),
 			)); ?>
-			<form class="form-inline float-lg-right" method="get" id="searchform" action="<?php echo home_url() ; ?>/">
-				<div class="input-group input-group-sm">
-					<input class="form-control" type="text" placeholder="Search our site" value="<?php echo esc_html($s, 1); ?>" name="s" id="s" maxlength="33" required />
-					<div class="input-group-append">
-						<button class="btn btn-outline-sobieski my-sm-0" type="submit">
-							<i class="fas fa-search fa-lg fa-fw"></i>
-						</button>
-					</div>
-				</div>
-			</form>
 		</div>
 	</div>
 </nav>
