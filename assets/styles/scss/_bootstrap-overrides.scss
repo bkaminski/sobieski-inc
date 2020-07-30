@@ -14,10 +14,9 @@
 
     @include breakpoint (md) {
 		font-size: 0.8rem;
-		margin-top: 40px;
+		padding-top: 40px;
 	}
 }
-
   .active > .nav-link {
     color: #11aeff;
     text-decoration: underline;

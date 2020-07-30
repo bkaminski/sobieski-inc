@@ -18,35 +18,29 @@
 	<button class="navbar-toggler rounded-0 hamburger" type="button" data-toggle="collapse" data-target="#sobieskiNav" aria-controls="sobieskiNav" aria-expanded="false" aria-label="Toggle navigation">
 		<i class="fas fa-bars fa-2x"></i>
 	</button>
-	<div class="collapse navbar-collapse" id="sobieskiNav">
-		<div class="flex-column ml-auto">
-			<div class="top-nav">
-				<?php
-				wp_nav_menu( array(
-					'theme_location'    => 'primary',
-					'depth'             => 2,
-					'container'         => '',
-					'container_class'   => '',
-					'container_id'      => '',
-					'menu_class'        => 'navbar-nav main-nav justify-content-end',
-					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-					'walker'            => new WP_Bootstrap_Navwalker(),
-				)); ?>
-			</div>
-			<div class="bottom-nav">
-				<?php
-				wp_nav_menu( array(
-					'theme_location'    => 'commercial',
-					'depth'             => 2,
-					'container'         => '',
-					'container_class'   => '',
-					'container_id'      => '',
-					'menu_class'        => 'navbar-nav commercial-nav justify-content-end',
-					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-					'walker'            => new WP_Bootstrap_Navwalker(),
-				)); ?>
-			</div>
-		</div>
+	<div class="collapse navbar-collapse flex-column" id="sobieskiNav">
+		<?php
+		wp_nav_menu( array(
+			'theme_location'    => 'primary',
+			'depth'             => 2,
+			'container'         => '',
+			'container_class'   => '',
+			'container_id'      => '',
+			'menu_class'        => 'navbar-nav nav w-100 justify-content-end',
+			'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+			'walker'            => new WP_Bootstrap_Navwalker(),
+		)); ?>
+		<?php
+		wp_nav_menu( array(
+			'theme_location'    => 'commercial',
+			'depth'             => 2,
+			'container'         => '',
+			'container_class'   => '',
+			'container_id'      => '',
+			'menu_class'        => 'navbar-nav nav w-100 justify-content-end',
+			'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+			'walker'            => new WP_Bootstrap_Navwalker(),
+		)); ?>
 	</div>
 </nav>
 <div class="phone-numbers d-none d-lg-block">
