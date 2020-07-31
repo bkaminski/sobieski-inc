@@ -19,39 +19,23 @@
 		<i class="fas fa-bars fa-2x"></i>
 	</button>
 	<div class="collapse navbar-collapse" id="sobieskiNav">
-		<div class="flex-column ml-auto">
-			<div class="top-nav">
-				<?php
-				wp_nav_menu( array(
-					'theme_location'    => 'primary',
-					'depth'             => 2,
-					'container'         => '',
-					'container_class'   => '',
-					'container_id'      => '',
-					'menu_class'        => 'navbar-nav main-nav justify-content-end',
-					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-					'walker'            => new WP_Bootstrap_Navwalker(),
-				)); ?>
-			</div>
-			<div class="bottom-nav">
-				<?php
-				wp_nav_menu( array(
-					'theme_location'    => 'commercial',
-					'depth'             => 2,
-					'container'         => '',
-					'container_class'   => '',
-					'container_id'      => '',
-					'menu_class'        => 'navbar-nav commercial-nav justify-content-end',
-					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-					'walker'            => new WP_Bootstrap_Navwalker(),
-				)); ?>
-			</div>
-		</div>
+		<?php
+		wp_nav_menu( array(
+			'theme_location'    => 'primary',
+			'depth'             => 2,
+			'container'         => '',
+			'container_class'   => '',
+			'container_id'      => '',
+			'menu_class'        => 'navbar-nav ml-auto',
+			'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+			'walker'            => new WP_Bootstrap_Navwalker(),
+		)); ?>
+		
 	</div>
 </nav>
 <div class="phone-numbers d-none d-lg-block">
-	<p class="h4 font-weight-bold">866-477-4394</p>
+	<p>Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 </div>
 <div class="phone-numbers d-block d-lg-none">
-	<p>866-477-4394</p>
+	<p>Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 </div>
