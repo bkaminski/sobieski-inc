@@ -1,8 +1,8 @@
 <div class="row pt-5">
 	<div class="col-sm-4">
 		<ul class="list-unstyled text-uppercase text-white">
-			<li class="pb-3">About</li>
-			<li class="pb-3">Coronavirus Statement</li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/about/">About</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/coronavirus-statement/">Coronavirus Statement</a></li>
 			<li class="pb-3">Promotions</li>
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
 			<li class="pb-3">Careers</li>
