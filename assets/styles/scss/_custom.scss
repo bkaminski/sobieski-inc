@@ -45,10 +45,6 @@
 	min-height: 500px;
 	transition: 0.3s ease-in-out;
 	z-index: 0;
-	//&:hover {
-	//	opacity: 0.7;
-	//	transition: 0.3s ease-in-out;
-//	}
 }
 .homeowner {
 	position: relative;
@@ -60,10 +56,6 @@
 	background-position:top center;
 	min-height: 500px;
 	transition: 0.3s ease-in-out;
-	//&:hover {
-	//	opacity: 0.7;
-	//	transition: 0.3s ease-in-out;
-//	}
 }
 .main-heading {
 	position: relative;
@@ -455,4 +447,9 @@
 	width: 100%;
 	min-height: 600px;
 	background: #f4f4f4;
+}
+.career-hero {
+	width: 100%;
+	min-height: 350px;
+	background: #11aeff;
 }
