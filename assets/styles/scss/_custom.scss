@@ -457,4 +457,13 @@
 	min-height: 300px;
 	background: #004482;
 }
-
+a.career-link {
+	color: #222;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		color: #11aeff;
+		transition: 0.3s ease-in-out;
+		text-decoration: underline;
+	}
+}

@@ -1,10 +1,10 @@
 <div class="current-openings">
-	<h2 class="text-center pt-5 pb-4">Current Openings</h2>
+	<h2 class="text-center pt-5 pb-4 text-uppercase">Current Openings</h2>
 	<div class="container-fluid">
 		<div class="row row-cols-lg-8 row-cols-4 text-center">
-			<div class="col"><a id="baltimoreCareer">Baltimore</a></div>
-			<div class="col"><a id="delawareCareer">Delaware</a></div>
-			<div class="col"><a id="executiveCareer">Executive</a></div>
+			<div class="col"><a class="career-link" id="baltimoreCareer">Baltimore</a></div>
+			<div class="col"><a class="career-link" id="delawareCareer">Delaware</a></div>
+			<div class="col"><a class="career-link" id="executiveCareer">Executive</a></div>
 			<div class="col">King of Prussia</div>
 			<div class="col">New Jersey</div>
 			<div class="col">Philadelphia</div>
@@ -16,6 +16,7 @@
 <div class="container-fluid pt-5">
 	<!-- Baltimore -->
 	<div class="career-baltimore">
+		<h4 class="text-center text-uppercase">Baltimore</h4>
 		<?php $args=array(
 			'post_type' => 'careers',
 			'posts_per_page' => 20,
@@ -49,6 +50,7 @@
 </div>
 	<!-- Delaware -->
 	<div class="career-delaware">
+		<h4 class="text-center text-uppercase">Delaware</h4>
 		<?php $args=array(
 			'post_type' => 'careers',
 			'posts_per_page' => 20,
@@ -82,6 +84,7 @@
 </div>
 	<!-- Executive -->
 	<div class="career-executive">
+		<h4 class="text-center text-uppercase">Executive</h4>
 		<?php $args=array(
 			'post_type' => 'careers',
 			'posts_per_page' => 20,
