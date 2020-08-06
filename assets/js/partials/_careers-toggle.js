@@ -2,6 +2,7 @@
 
 $(document).ready(function(){
     $(".career-baltimore, .career-delaware, .career-executive, .career-kop, .career-nj, .career-philadelphia, .career-south-delaware, .career-york").hide();
+    
     $("#baltimoreCareer").on("click",function(){
         $(".career-baltimore").show();
         $(".career-delaware, .career-executive, .career-kop, .career-nj, .career-philadelphia, .career-south-delaware, .career-york").hide();

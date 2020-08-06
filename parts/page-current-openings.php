@@ -9,7 +9,7 @@
 			<div class="col"><a class="career-link" id="njCareer">New Jersey</a></div>
 			<div class="col"><a class="career-link" id="phillyCareer">Philadelphia</a></div>
 			<div class="col"><a class="career-link" id="southDelawareCareer">South Delaware</a></div>
-			<div class="col"><a class="career-link" id="yorkCareer">York, PA</div>
+			<div class="col"><a class="career-link" id="yorkCareer">York, PA</a></div>
 		</div>
 	</div>
 </div>
@@ -217,7 +217,7 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
-</div>	
+
 	<!-- South Delaware -->
 	<div class="career-south-delaware">
 		<h4 class="text-center text-uppercase">South Delaware</h4>
@@ -251,7 +251,7 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
-</div>			
+			
 <!-- York PA -->
 	<div class="career-york">
 		<h4 class="text-center text-uppercase">York, PA</h4>
@@ -285,7 +285,7 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
-</div>			
+		
 		
 
 		
