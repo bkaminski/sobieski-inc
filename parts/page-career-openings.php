@@ -1,7 +1,7 @@
 <div class="current-openings">
 	<h2 class="text-center pt-5 pb-4 text-uppercase">Current Openings</h2>
 	<div class="container-fluid">
-		<div class="row row-cols-lg-8 row-cols-4 text-center">
+		<div class="row row-cols-lg-8 row-cols-2 text-center">
 			<div class="col">
 				<div class="card h-100 career-card">
 					<div class="card-header career-header">
@@ -77,9 +77,10 @@
 			<div class="col">
 				<div class="card h-100 career-card">
 					<div class="card-header career-header">
-						<a class="career-link text-white southDelawareCareer">South Delaware</a>
+						<a class="career-link text-white southDelawareCareer d-none d-md-block">South Delaware</a>
+						<a class="career-link text-white southDelawareCareer d-block d-md-none">S. Delaware</a>
 					</div>
-					<div class="card-body career-highligh d-none d-md-block">
+					<div class="card-body career-highlight d-none d-md-block">
 						<a class="southDelawareCareer">
 							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/southdelaware_nobanner.png' ) . '" class="img-fluid" alt="Graphic of state of Delaware with a pin on Sussex County">'; ?>
 						</a>

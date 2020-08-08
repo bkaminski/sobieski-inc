@@ -21,7 +21,7 @@ get_header(); ?>
 
 </section>
 <section>
-	<?php get_template_part( 'parts/page', 'current-openings' ); ?>
+	<?php get_template_part( 'parts/page', 'career-openings' ); ?>
 
 </section>
 <section>
