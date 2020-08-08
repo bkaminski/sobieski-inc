@@ -47,4 +47,12 @@ if ($('.blog, .page-template-page-commercial-php')[0]){
     	$('#searchSobieski').trigger('focus')
     });
 
+
+//Hover on State Images
+var addclass = 'career-highlight-color';
+var $cols = $('.career-highlight').click(function(e) {
+    $cols.removeClass(addclass);
+    $(this).addClass(addclass);
+});
+
 })( jQuery );

@@ -88,6 +88,14 @@ if ($('.blog, .page-template-page-commercial-php')[0]){
     	$('#searchSobieski').trigger('focus')
     });
 
+
+//Hover on State Images
+var addclass = 'career-highlight-color';
+var $cols = $('.career-highlight').click(function(e) {
+    $cols.removeClass(addclass);
+    $(this).addClass(addclass);
+});
+
 })( jQuery );
 
 (function( $ ) {
@@ -102,11 +110,13 @@ if ($('.blog, .page-template-page-commercial-php')[0]){
 			$('.center-on-mobile2').addClass('text-center');
 			$('.affiliate-row').find('img').addClass('mt-2');
 			$('.commercial-nav').addClass('mt-1');
+			$('.career-card').removeClass('h-100');
 		};
 		if ($window.width() >= 769) {
 			$('.center-on-mobile1').removeClass('text-center').addClass('text-right');
 			$('.center-on-mobile2').removeClass('text-center').addClass('text-left');
 			$('.commercial-nav').removeClass('mt-1');
+			$('.career-card').addClass('h-100');
 		}
 		if ($window.width() < 992) {
 			$('.commercial-nav').addClass('mt-1');

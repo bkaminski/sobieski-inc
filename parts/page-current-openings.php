@@ -3,11 +3,11 @@
 	<div class="container-fluid">
 		<div class="row row-cols-lg-8 row-cols-4 text-center">
 			<div class="col">
-				<div class="card">
+				<div class="card h-100 career-card">
 					<div class="card-header career-header">
 						<a class="career-link text-white baltimoreCareer">Baltimore</a>
 					</div>
-					<div class="card-body">
+					<div class="card-body career-highlight d-none d-md-block">
 						<a class="baltimoreCareer">
 							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/baltimore_nobanner.png' ) . '" class="img-fluid" alt="Graphic of Maryland with a Pin on Baltimore">'; ?>
 						</a>
@@ -15,85 +15,85 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<div class="card h-100 career-card">
 					<div class="card-header career-header">
 						<a class="career-link text-white delawareCareer">Delaware</a>
 					</div>
-					<div class="card-body">
+					<div class="card-body career-highlight d-none d-md-block">
 						<a class="delawareCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '' ) . '" class="img-fluid" alt="Graphic of the State of Delaware">'; ?>
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/delaware_nobanner.png' ) . '" class="img-fluid" alt="Graphic of the State of Delaware">'; ?>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<div class="card h-100 career-card">
 					<div class="card-header career-header">
 						<a class="career-link text-white executiveCareer">Executive</a>
 					</div>
-					<div class="card-body">
+					<div class="card-body career-highlight d-none d-md-block">
 						<a class="executiveCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '' ) . '" class="img-fluid" alt="Graphic of person in business suit">'; ?>
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/executive_nobanner.png' ) . '" class="img-fluid" alt="Graphic of person in business suit">'; ?>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<div class="card h-100 career-card">
 					<div class="card-header career-header">
 						<a class="career-link text-white kopCareer">King of Prussia</a>
 					</div>
-					<div class="card-body">
+					<div class="card-body career-highlight d-none d-md-block">
 						<a class="kopCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '' ) . '" class="img-fluid" alt="Graphic of Pennsylvania with pin on King of Prussia">'; ?>
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/kingofprussia_nobanner.png' ) . '" class="img-fluid" alt="Graphic of Pennsylvania with pin on King of Prussia">'; ?>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<div class="card h-100 career-card">
 					<div class="card-header career-header">
 						<a class="career-link text-white njCareer">New Jersey</a>
 					</div>
-					<div class="card-body">
+					<div class="card-body career-highlight d-none d-md-block">
 						<a class="njCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '' ) . '" class="img-fluid" alt="Graphic of state of New Jersey">'; ?>
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/newjersey_nobanner.png' ) . '" class="img-fluid" alt="Graphic of state of New Jersey">'; ?>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<div class="card h-100 career-card">
 					<div class="card-header career-header">
 						<a class="career-link text-white phillyCareer">Philadelphia</a>
 					</div>
-					<div class="card-body">
+					<div class="card-body career-highlight d-none d-md-block">
 						<a class="phillyCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '' ) . '" class="img-fluid" alt="Graphic of state of Pennsylvania with a pin on Philadelphia">'; ?>
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/philadelphia_nobanner.png' ) . '" class="img-fluid" alt="Graphic of state of Pennsylvania with a pin on Philadelphia">'; ?>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<div class="card h-100 career-card">
 					<div class="card-header career-header">
 						<a class="career-link text-white southDelawareCareer">South Delaware</a>
 					</div>
-					<div class="card-body">
+					<div class="card-body career-highligh d-none d-md-block">
 						<a class="southDelawareCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '' ) . '" class="img-fluid" alt="Graphic of state of Delaware with a pin on Sussex County">'; ?>
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/southdelaware_nobanner.png' ) . '" class="img-fluid" alt="Graphic of state of Delaware with a pin on Sussex County">'; ?>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="col">
-				<div class="card">
+				<div class="card h-100 career-card">
 					<div class="card-header career-header">
 						<a class="career-link text-white yorkCareer">York, PA</a>
 					</div>
-					<div class="card-body">
+					<div class="card-body career-highlight d-none d-md-block">
 						<a class="yorkCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '' ) . '" class="img-fluid" alt="Graphic of state of Pennsylvania with a pin on York">'; ?>
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/york_nobanner.png' ) . '" class="img-fluid" alt="Graphic of state of Pennsylvania with a pin on York">'; ?>
 						</a>
 					</div>
 				</div>
@@ -375,8 +375,4 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
-		
-		
-
-		
 
