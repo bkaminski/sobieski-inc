@@ -484,3 +484,27 @@ a.career-link {
 .career-highlight-color {
 	border: 2px solid #11aeff;
 }
+.career-values {
+	width: 100%;
+	min-height: 150px;
+	position: relative;
+	background: #004482;
+}
+.values-title {
+	color: #11aeff;
+}
+.integrity,
+.family {
+	border-right: none;
+	border-bottom: 4px solid #fff;
+	@include breakpoint (md) {
+		border-right: 4px solid #fff;
+	}
+}
+.courage {
+	border-right: none;
+	border-bottom: 4px solid #fff;
+	@include breakpoint (md) {
+		border-right: 0px solid #fff;
+	}
+}
