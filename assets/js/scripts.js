@@ -96,6 +96,13 @@ var $cols = $('.career-highlight').click(function(e) {
     $(this).addClass(addclass);
 });
 
+//Smooth Scroll Careers
+$("#careerLink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#careerLinkTarget").offset().top
+    }, 800);
+});
+
 })( jQuery );
 
 (function( $ ) {
@@ -111,18 +118,22 @@ var $cols = $('.career-highlight').click(function(e) {
 			$('.affiliate-row').find('img').addClass('mt-2');
 			$('.commercial-nav').addClass('mt-1');
 			$('.career-card').removeClass('h-100');
+			
 		};
 		if ($window.width() >= 769) {
 			$('.center-on-mobile1').removeClass('text-center').addClass('text-right');
 			$('.center-on-mobile2').removeClass('text-center').addClass('text-left');
 			$('.commercial-nav').removeClass('mt-1');
 			$('.career-card').addClass('h-100');
+			
 		}
 		if ($window.width() < 992) {
 			$('.commercial-nav').addClass('mt-1');
+			$('.career-slider').addClass('pl-0');
 		};
 		if ($window.width() >= 992) {
 			$('.commercial-nav').removeClass('mt-1');
+			$('.career-slider').removeClass('pl-0');
 		}
 	}
 	

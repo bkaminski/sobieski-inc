@@ -55,4 +55,11 @@ var $cols = $('.career-highlight').click(function(e) {
     $(this).addClass(addclass);
 });
 
+//Smooth Scroll Careers
+$("#careerLink").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#careerLinkTarget").offset().top
+    }, 800);
+});
+
 })( jQuery );
