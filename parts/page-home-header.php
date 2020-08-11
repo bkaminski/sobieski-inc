@@ -19,7 +19,7 @@
 			<div class="col-md-6 kill-padding">
 				<div class="homeowner text-center">
 					<h1 class="main-header-hero text-uppercase font-weight-bold">
-						<a class="main-heading" href="#">Homeowner</a>
+						<a class="main-heading" href="<?php echo get_home_url(); ?>/homeowner">Homeowner</a>
 					</h1>
 					<ul class="list-unstyled text-white">
 						<li>Heating & Air Conditioning</li>
@@ -28,7 +28,7 @@
 						<li>Indoor Air Quality</li>
 						<li>Service Agreements</li>
 					</ul>
-					<button class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 font-weight-bold">Read More</button>
+					<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 font-weight-bold">Read More</a>
 				</div>
 			</div>
 		</div>

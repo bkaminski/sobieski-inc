@@ -35,18 +35,25 @@
 		'certifications', 
 		'contact-us', 
 		'about', 
-		'coronavirus-statement' 
+		'coronavirus-statement',
 	) ) ) {
 		echo get_template_part ('parts/page', 'nav');
 	} elseif ( is_page ( array( 
-		'commercial', 
+		'commercial',
+		'commercial-maintenance-0',
+		'hvac-maintenance',
+		'plumbing',
+		'water-heating',
 		'business-property-owners',
 		'general-contractors',
 		'home-builders',
 		'facility-managers',
 	) ) ) {
 		echo get_template_part ('parts/page', 'commercial-nav');
+	} elseif ( is_page ( array( 
+		'homeowner',
+	) ) ) {
+		echo get_template_part ('parts/page', 'homeowner-nav');
 	} else {
 		echo get_template_part( 'parts/page', 'nav' );
-	}
-	?>
+	}?>

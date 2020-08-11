@@ -3,20 +3,20 @@
 		<ul class="list-unstyled text-uppercase text-white">
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/about/">About</a></li>
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/coronavirus-statement/">Coronavirus Statement</a></li>
-			<li class="pb-3">Promotions</li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/homeowner-promotions/">Promotions</a></li>
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/blog">Blog</a></li>
-			<li class="pb-3">Careers</li>
-			<li class="pb-3">Certifications</li>
-			<li class="pb-3">Our Safety Programs</li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/careers">Careers</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/certifications">Certifications</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/certifications/our-safety-programs">Our Safety Programs</a></li>
 			<li><a class="text-white" href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></li>
 		</ul>
 	</div>
 	<div class="col-sm-4">
 		<ul class="list-unstyled text-uppercase text-white">
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/commercial">Commercial</a></li>
-			<li class="pb-3">Facility Managers</li>
-			<li class="pb-3">General Contractors</li>
-			<li class="pb-3">Homebuilders</li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/audience/facility-managers/">Facility Managers</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/audience/general-contractors/">General Contractors</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/audience/home-builders/">Homebuilders</a></li>
 			<li><a class="text-white" href="<?php echo get_home_url(); ?>/audience/business-property-owners">Commercial Business &amp; Property Owners</a></li>
 		</ul>
 	</div>
@@ -36,10 +36,10 @@
 	</div>
 	<div class="col-sm-3">
 		<ul class="list-inline">
-  			<li class="list-inline-item pr-2"><i class="fab fa-facebook-square fa-2x"></i></li>
-  			<li class="list-inline-item pr-2"><i class="fab fa-twitter-square fa-2x"></i></li>
-  			<li class="list-inline-item pr-2"><i class="fab fa-instagram fa-2x"></i></li>
-  			<li class="list-inline-item"><i class="fab fa-youtube-square fa-2x"></i></li>
+  			<li class="list-inline-item pr-2"><a target="_blank" href="https://www.facebook.com/SobieskiServices/"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+  			<li class="list-inline-item pr-2"><a target="_blank" href="https://twitter.com/SobieskiService"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+  			<li class="list-inline-item pr-2"><a target="_blank" href="https://www.instagram.com/sobieskiinc/"><i class="fab fa-instagram fa-2x"></i></a></li>
+  			<li class="list-inline-item"><a target="_blank" href="https://www.youtube.com/channel/UCf3WsrMYSWZe70bmgGxLeLQ"><i class="fab fa-youtube-square fa-2x"></i></a></li>
 		</ul> 
 	</div>
 </div>

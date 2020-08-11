@@ -21,5 +21,6 @@ require_once get_template_directory() . '/functions/class-wp-bootstrap-navwalker
 register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'sobieski-inc' ),
     'commercial' => __( 'Commercial Menu', 'sobieski-inc'),
+    'homeowner' => __( 'Homeowner Menu', 'sobieski-inc'),
 ));
 // Nav Walker
