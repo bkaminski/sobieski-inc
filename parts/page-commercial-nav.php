@@ -20,7 +20,6 @@
 	</button>
 	<div class="collapse navbar-collapse" id="sobieskiNav">
 		<div class="flex-column ml-auto">
-			<div class="top-nav">
 				<?php
 				wp_nav_menu( array(
 					'theme_location'    => 'primary',
@@ -32,20 +31,52 @@
 					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 					'walker'            => new WP_Bootstrap_Navwalker(),
 				)); ?>
-			</div>
-			<div class="bottom-nav">
-				<?php
-				wp_nav_menu( array(
-					'theme_location'    => 'commercial',
-					'depth'             => 2,
-					'container'         => '',
-					'container_class'   => '',
-					'container_id'      => '',
-					'menu_class'        => 'navbar-nav commercial-nav justify-content-end',
-					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-					'walker'            => new WP_Bootstrap_Navwalker(),
-				)); ?>
-			</div>
+				<ul class="nav sub-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Commercial Maintenance</a>
+						<div class="dropdown-menu">	
+							<a class="dropdown-item" href="#">About Commercial Maintenance</a>
+							<a class="dropdown-item" href="#">HVAC</a>
+							<a class="dropdown-item" href="#">Plumbing</a>
+							<a class="dropdown-item" href="#">Water Heating</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Mechanical Construction</a>
+						<div class="dropdown-menu">	
+							<a class="dropdown-item" href="#">About Mechanical Construction</a>
+							<a class="dropdown-item" href="#">BIM &amp; 3D Modeling</a>
+							<a class="dropdown-item" href="#">Conceptual Design Budgeting</a>
+							<a class="dropdown-item" href="#">Design Build Partnerships</a>
+							<a class="dropdown-item" href="#">Pre-Fabrication</a>
+							<a class="dropdown-item" href="#">Value Engineering</a>
+							<a class="dropdown-item" href="#">Turnkey Projects</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Fire, Alarm &amp; Security</a>
+						<div class="dropdown-menu">	
+							<a class="dropdown-item" href="#">About Fire, Alarm &amp; Security</a>
+							<a class="dropdown-item" href="#">Fire Alarm Systems</a>
+							<a class="dropdown-item" href="#">Security Systems</a>
+							<a class="dropdown-item" href="#">Testing &amp; Inspections</a>
+							<a class="dropdown-item" href="#">Fire &amp; Security Monitoring</a>
+							<a class="dropdown-item" href="#">Request a Fire &amp; Security System Quote</a>
+							<a class="dropdown-item" href="#">Emergency Service</a>
+							<a class="dropdown-item" href="#">Service, Repair, &amp; Maintenance</a>
+							<a class="dropdown-item" href="#">VIP Club</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Home Builder Services</a>
+						<div class="dropdown-menu dropdown-menu-right">	
+							<a class="dropdown-item" href="#">About Home Builder Services</a>
+							<a class="dropdown-item" href="#">Pre-Construction Services</a>
+							<a class="dropdown-item" href="#">Construction Services</a>
+							<a class="dropdown-item" href="#">After Sale Support</a>
+						</div>
+					</li>
+				</ul>
 		</div>
 	</div>
 </nav>

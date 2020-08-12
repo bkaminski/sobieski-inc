@@ -15,12 +15,12 @@
 		</a>
 	</div>
 	<div class="clearfix"></div>
-	<button class="navbar-toggler rounded-0 hamburger" type="button" data-toggle="collapse" data-target="#sobieskiNav" aria-controls="sobieskiHomeNav" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler rounded-0 hamburger" type="button" data-toggle="collapse" data-target="#sobieskiHomeNav" aria-controls="sobieskiHomeNav" aria-expanded="false" aria-label="Toggle navigation">
 		<i class="fas fa-bars fa-2x"></i>
 	</button>
 	<div class="collapse navbar-collapse" id="sobieskiHomeNav">
 		<div class="flex-column ml-auto">
-			<div class="top-nav">
+			
 				<?php
 				wp_nav_menu( array(
 					'theme_location'    => 'primary',
@@ -28,24 +28,58 @@
 					'container'         => '',
 					'container_class'   => '',
 					'container_id'      => '',
-					'menu_class'        => 'navbar-nav main-nav justify-content-end',
+					'menu_class'        => 'navbar-nav justify-content-end',
 					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 					'walker'            => new WP_Bootstrap_Navwalker(),
 				)); ?>
-			</div>
-			<div class="bottom-nav">
-				<?php
-				wp_nav_menu( array(
-					'theme_location'    => 'homeowner',
-					'depth'             => 2,
-					'container'         => '',
-					'container_class'   => '',
-					'container_id'      => '',
-					'menu_class'        => 'navbar-nav commercial-nav justify-content-end',
-					'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
-					'walker'            => new WP_Bootstrap_Navwalker(),
-				)); ?>
-			</div>
+				<ul class="nav sub-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Heating & Air Conditioning</a>
+						<div class="dropdown-menu">	
+							<a class="dropdown-item" href="#">About Heating &amp; Air Conditioning</a>
+							<a class="dropdown-item" href="#">Heating Repairs</a>
+							<a class="dropdown-item" href="#">Heating Installation and Replacement</a>
+							<a class="dropdown-item" href="#">Air Conditioning Repairs</a>
+							<a class="dropdown-item" href="#">AC Installation &amp; Replacement</a>
+							<a class="dropdown-item" href="#">Heating &amp; Cooling Pro Check</a>
+							<a class="dropdown-item" href="#">Service Partner Plans</a>
+							<a class="dropdown-item" href="#">Custom Homes</a>
+							<a class="dropdown-item" href="#">Geothermal</a>
+							<a class="dropdown-item" href="#">Boilers</a>
+							<a class="dropdown-item" href="#">Turn Up Your Comfort with a WiFi Thermostat</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Plumbing & Drain Services</a>
+						<div class="dropdown-menu">	
+							<a class="dropdown-item" href="#">About Plumbing &amp; Drain Services</a>
+							<a class="dropdown-item" href="#">Plumbing Installation and Replacements</a>
+							<a class="dropdown-item" href="#">Back Up Sump Pump</a>
+							<a class="dropdown-item" href="#">Sewer &amp; Drain Service/Repair</a>
+							<a class="dropdown-item" href="#">Sewer &amp; Drain Installation/Replacements</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Water Heaters</a>
+						<div class="dropdown-menu">	
+							<a class="dropdown-item" href="#">About Water Heaters</a>
+							<a class="dropdown-item" href="#">Water Heater Installation/Replacement</a>
+							<a class="dropdown-item" href="#">Why Tankless?</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Indoor Air Quality</a>
+						<div class="dropdown-menu dropdown-menu-right">	
+							<a class="dropdown-item" href="#">About IAQ</a>
+							<a class="dropdown-item" href="#">Dehumidifiers</a>
+							<a class="dropdown-item" href="#">Humidifiers</a>
+							<a class="dropdown-item" href="#">Indoor Air Quality Analysis</a>
+							<a class="dropdown-item" href="#">Merv Air Filtration</a>
+							<a class="dropdown-item" href="#">UV Air Quality Products</a>
+							<a class="dropdown-item" href="#">Ventilation</a>
+						</div>
+					</li>
+				</ul>
 		</div>
 	</div>
 </nav>

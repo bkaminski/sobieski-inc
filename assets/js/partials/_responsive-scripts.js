@@ -23,10 +23,12 @@
 		if ($window.width() < 992) {
 			$('.commercial-nav').addClass('mt-1');
 			$('.career-slider').addClass('pl-0');
+			$('.sub-nav').addClass('navbar-nav');
 		};
 		if ($window.width() >= 992) {
 			$('.commercial-nav').removeClass('mt-1');
 			$('.career-slider').removeClass('pl-0');
+			$('.sub-nav').removeClass('navbar-nav');
 		}
 	}
 	
