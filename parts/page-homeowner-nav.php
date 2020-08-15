@@ -36,47 +36,47 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Heating & Air Conditioning</a>
 						<div class="dropdown-menu">	
-							<a class="dropdown-item" href="#">About Heating &amp; Air Conditioning</a>
-							<a class="dropdown-item" href="#">Heating Repairs</a>
-							<a class="dropdown-item" href="#">Heating Installation and Replacement</a>
-							<a class="dropdown-item" href="#">Air Conditioning Repairs</a>
-							<a class="dropdown-item" href="#">AC Installation &amp; Replacement</a>
-							<a class="dropdown-item" href="#">Heating &amp; Cooling Pro Check</a>
-							<a class="dropdown-item" href="#">Service Partner Plans</a>
-							<a class="dropdown-item" href="#">Custom Homes</a>
-							<a class="dropdown-item" href="#">Geothermal</a>
-							<a class="dropdown-item" href="#">Boilers</a>
-							<a class="dropdown-item" href="#">Turn Up Your Comfort with a WiFi Thermostat</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/heating-air-conditioning">About Heating &amp; Air Conditioning</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-repairs">Heating Repairs</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-installation-replacement">Heating Installation and Replacement</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/air-conditioning-repairs">Air Conditioning Repairs</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/ac-installation-replacement">AC Installation &amp; Replacement</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-cooling-pro-check">Heating &amp; Cooling Pro Check</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans">Service Partner Plans</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/custom-homes">Custom Homes</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/geothermal-heating-cooling">Geothermal</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/boilers">Boilers</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/turn-your-comfort-wi-fi-thermostat">Turn Up Your Comfort with a WiFi Thermostat</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Plumbing & Drain Services</a>
 						<div class="dropdown-menu">	
-							<a class="dropdown-item" href="#">About Plumbing &amp; Drain Services</a>
-							<a class="dropdown-item" href="#">Plumbing Installation and Replacements</a>
-							<a class="dropdown-item" href="#">Back Up Sump Pump</a>
-							<a class="dropdown-item" href="#">Sewer &amp; Drain Service/Repair</a>
-							<a class="dropdown-item" href="#">Sewer &amp; Drain Installation/Replacements</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/plumbing-drain-services">About Plumbing &amp; Drain Services</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/plumbing-installations-replacements">Plumbing Installation and Replacements</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/back-sump-pump">Back Up Sump Pump</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/sewer-drain-service-repair">Sewer &amp; Drain Service/Repair</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/sewer-drain-installation-and-replacements">Sewer &amp; Drain Installation/Replacements</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Water Heaters</a>
 						<div class="dropdown-menu">	
-							<a class="dropdown-item" href="#">About Water Heaters</a>
-							<a class="dropdown-item" href="#">Water Heater Installation/Replacement</a>
-							<a class="dropdown-item" href="#">Why Tankless?</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/water-heaters">About Water Heaters</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/water-heater-installation-replacement">Water Heater Installation/Replacement</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/why-tankless">Why Tankless?</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Indoor Air Quality</a>
 						<div class="dropdown-menu dropdown-menu-right">	
-							<a class="dropdown-item" href="#">About IAQ</a>
-							<a class="dropdown-item" href="#">Dehumidifiers</a>
-							<a class="dropdown-item" href="#">Humidifiers</a>
-							<a class="dropdown-item" href="#">Indoor Air Quality Analysis</a>
-							<a class="dropdown-item" href="#">Merv Air Filtration</a>
-							<a class="dropdown-item" href="#">UV Air Quality Products</a>
-							<a class="dropdown-item" href="#">Ventilation</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/indoor-air-quality">About IAQ</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/dehumidifiers">Dehumidifiers</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/humidifiers">Humidifiers</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/air-advice">Indoor Air Quality Analysis</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/merv-air-filtration">Merv Air Filtration</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/uv-air-quality-products">UV Air Quality Products</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/ventilation">Ventilation</a>
 						</div>
 					</li>
 				</ul>

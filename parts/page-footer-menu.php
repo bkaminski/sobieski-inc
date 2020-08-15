@@ -22,17 +22,17 @@
 	</div>
 	<div class="col-sm-4">
 		<ul class="list-unstyled text-uppercase text-white">
-			<li class="pb-3">Homeowners</li>
-			<li class="pb-3">Heating &amp; Air Conditioning</li>
-			<li class="pb-3">Indoor Air Quality</li>
-			<li class="pb-3">Plumbing &amp; Drain Services</li>
-			<li>Water Heaters</li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/homeowner">Homeowners</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/service-category/heating-air-conditioning/">Heating &amp; Air Conditioning</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/service-category/indoor-air-quality/">Indoor Air Quality</a></li>
+			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/service-category/plumbing-drain-services/">Plumbing &amp; Drain Services</a></li>
+			<li><a class="text-white" href="<?php echo get_home_url(); ?>/service-category/water-heaters/">Water Heaters</a></li>
 		</ul>
 	</div>
 </div>
 <div class="row">
 	<div class="col-sm-9">
-		<p class="text-white small">Copyright &copy; <?php echo the_date('Y'); ?> | Sobieski Services, Inc. | 1325 Old Cooch's Bridge Road, Newark, DE 19713 | Privacy Policy</p>
+		<p class="text-white small">Copyright &copy; <?php echo the_date('Y'); ?> | Sobieski Services, Inc. | 1325 Old Cooch's Bridge Road, Newark, DE 19713 | <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
 	</div>
 	<div class="col-sm-3">
 		<ul class="list-inline">

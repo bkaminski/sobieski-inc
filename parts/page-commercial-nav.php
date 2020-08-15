@@ -5,13 +5,13 @@
 	<div class="logo-wrapper">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
 			<?php $uploads = wp_upload_dir(); 
-			echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/06/revised_logo.png' ) . '" class="logo-img d-none d-lg-block" alt="Sobieski Inc Logo">'; ?>
+			echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/Sobieski-Commercial.png' ) . '" class="logo-img d-none d-lg-block" alt="Sobieski Inc Logo">'; ?>
 		</a>
 	</div>
 	<div class="d-block d-lg-none">
 		<a class="text-center" href="<?php echo get_home_url(); ?>">
 				<?php $uploads = wp_upload_dir(); 
-				echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/06/revised_logo.png' ) . '" class="logo-img" alt="Sobieski Inc Logo">'; ?>
+				echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/Sobieski-Commercial.png' ) . '" class="logo-img" alt="Sobieski Inc Logo">'; ?>
 		</a>
 	</div>
 	<div class="clearfix"></div>
@@ -35,45 +35,45 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Commercial Maintenance</a>
 						<div class="dropdown-menu">	
-							<a class="dropdown-item" href="#">About Commercial Maintenance</a>
-							<a class="dropdown-item" href="#">HVAC</a>
-							<a class="dropdown-item" href="#">Plumbing</a>
-							<a class="dropdown-item" href="#">Water Heating</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/commercial-maintenance-0">About Commercial Maintenance</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/hvac-maintenance">HVAC</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/plumbing">Plumbing</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/water-heating">Water Heating</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Mechanical Construction</a>
 						<div class="dropdown-menu">	
-							<a class="dropdown-item" href="#">About Mechanical Construction</a>
-							<a class="dropdown-item" href="#">BIM &amp; 3D Modeling</a>
-							<a class="dropdown-item" href="#">Conceptual Design Budgeting</a>
-							<a class="dropdown-item" href="#">Design Build Partnerships</a>
-							<a class="dropdown-item" href="#">Pre-Fabrication</a>
-							<a class="dropdown-item" href="#">Value Engineering</a>
-							<a class="dropdown-item" href="#">Turnkey Projects</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/mechanical-construction">About Mechanical Construction</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/bim-3d-modeling">BIM &amp; 3D Modeling</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/conceptual-design-budgeting">Conceptual Design Budgeting</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/design-build-partnerships">Design Build Partnerships</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/pre-fabrication">Pre-Fabrication</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/value-engineering">Value Engineering</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/turnkey-projects">Turnkey Projects</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Fire, Alarm &amp; Security</a>
 						<div class="dropdown-menu">	
-							<a class="dropdown-item" href="#">About Fire, Alarm &amp; Security</a>
-							<a class="dropdown-item" href="#">Fire Alarm Systems</a>
-							<a class="dropdown-item" href="#">Security Systems</a>
-							<a class="dropdown-item" href="#">Testing &amp; Inspections</a>
-							<a class="dropdown-item" href="#">Fire &amp; Security Monitoring</a>
-							<a class="dropdown-item" href="#">Request a Fire &amp; Security System Quote</a>
-							<a class="dropdown-item" href="#">Emergency Service</a>
-							<a class="dropdown-item" href="#">Service, Repair, &amp; Maintenance</a>
-							<a class="dropdown-item" href="#">VIP Club</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/fire-alarm-security">About Fire, Alarm &amp; Security</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/fire-alarm-systems">Fire Alarm Systems</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/security-systems">Security Systems</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/testing-inspections">Testing &amp; Inspections</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/fire-security-monitoring">Fire &amp; Security Monitoring</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/request-fire-security-system-quote">Request a Fire &amp; Security System Quote</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/emergency-service">Emergency Service</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-repair-maintenance">Service, Repair, &amp; Maintenance</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/very-important-protection-club">VIP Club</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Home Builder Services</a>
 						<div class="dropdown-menu dropdown-menu-right">	
-							<a class="dropdown-item" href="#">About Home Builder Services</a>
-							<a class="dropdown-item" href="#">Pre-Construction Services</a>
-							<a class="dropdown-item" href="#">Construction Services</a>
-							<a class="dropdown-item" href="#">After Sale Support</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/home-builder-services">About Home Builder Services</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/pre-construction-services">Pre-Construction Services</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/construction-services">Construction Services</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/after-sale-support">After Sale Support</a>
 						</div>
 					</li>
 				</ul>

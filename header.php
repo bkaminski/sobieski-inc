@@ -30,15 +30,6 @@
 	} elseif (is_single() ) {
 		echo get_template_part ('parts/page', 'nav');
 	} elseif ( is_page ( array( 
-		'promotions', 
-		'careers', 
-		'certifications', 
-		'contact-us', 
-		'about', 
-		'coronavirus-statement',
-	) ) ) {
-		echo get_template_part ('parts/page', 'nav');
-	} elseif ( is_page ( array( 
 		'commercial',
 		'commercial-maintenance-0',
 		'hvac-maintenance',
@@ -48,10 +39,56 @@
 		'general-contractors',
 		'home-builders',
 		'facility-managers',
+		'mechanical-construction',
+		'bim-3d-modeling',
+		'conceptual-design-budgeting',
+		'design-build-partnerships',
+		'pre-fabrication',
+		'value-engineering',
+		'turnkey-projects',
+		'fire-alarm-security',
+		'fire-alarm-systems',
+		'security-systems',
+		'testing-inspections',
+		'fire-security-monitoring',
+		'request-fire-security-system-quote',
+		'emergency-service',
+		'service-repair-maintenance',
+		'very-important-protection-club',
+		'home-builder-services',
+		'pre-construction-services',
+		'construction-services',
+		'after-sale-support',
 	) ) ) {
 		echo get_template_part ('parts/page', 'commercial-nav');
 	} elseif ( is_page ( array( 
 		'homeowner',
+		'heating-air-conditioning',
+		'heating-repairs',
+		'heating-installation-replacement',
+		'air-conditioning-repairs',
+		'ac-installation-replacement',
+		'heating-cooling-pro-check',
+		'service-partner-plans',
+		'custom-homes',
+		'geothermal-heating-cooling',
+		'boilers',
+		'turn-your-comfort-wi-fi-thermostat',
+		'plumbing-drain-services',
+		'plumbing-installations-replacements',
+		'back-sump-pump',
+		'sewer-drain-service-repair',
+		'sewer-drain-installation-and-replacements',
+		'water-heaters',
+		'water-heater-installation-replacement',
+		'why-tankless',
+		'indoor-air-quality',
+		'dehumidifiers',
+		'humidifiers',
+		'air-advice',
+		'merv-air-filtration',
+		'uv-air-quality-products',
+		'ventilation',
 	) ) ) {
 		echo get_template_part ('parts/page', 'homeowner-nav');
 	} else {

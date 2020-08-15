@@ -33,8 +33,11 @@ if($('li.page-link').attr('href') === undefined) {
 //Check if page is blog then add class to read more button
 if ($('.blog, .page-template-page-commercial-php')[0]){
     $('.excerpt-button').addClass('excerpt-card');
-} else {
+} else if ($('.page-template, .page-template-services-template ')[0]) {
+	 $('.excerpt-button').addClass('excerpt-card');
     // Do nothing
+} else {
+	
 }
 
 //TRIGGER SEARCH MODAL
