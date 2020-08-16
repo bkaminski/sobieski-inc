@@ -34,9 +34,35 @@
 		</div>
 	</div>
 </nav>
-<div class="phone-numbers d-none d-lg-block">
-	<p>Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
+<div class="container-fluid pb-2 d-none d-lg-block">
+	<div class="row">
+		<div class="col-lg-4">
+		</div>
+		<div class="col-lg-4 text-center">
+			<div class="phone-numbers">
+				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
+			</div>
+		</div>
+		<div class="col-lg-4">
+			<div class="btn-group btn-group-sm float-right" role="group" aria-label="Basic example">
+  				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0">Commercial</a>
+  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0">Homeowner</a>
+  			</div>
+		</div>
+	</div>
 </div>
-<div class="phone-numbers d-block d-lg-none">
-	<p>Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
+<div class="container-fluid pb-2 d-block d-lg-none">
+	<div class="row">
+		<div class="col-lg-6 text-center">
+			<div class="phone-numbers">
+				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
+			</div>
+		</div>
+		<div class="col-lg-6 text-center">
+			<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+  				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0">Commercial</a>
+  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0">Homeowner</a>
+  			</div>
+		</div>
+	</div>
 </div>
