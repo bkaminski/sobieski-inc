@@ -34,6 +34,21 @@
 	min-height: 500px;
 	background: #222;
 }
+.homeowner-hero {
+	min-height: 565px;
+	width: 100%;
+	background: #222;
+	background-image: url('../../../../uploads/2020/08/homeowner-banner-image.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.homeowner-content {
+	width: 100%;
+	min-height: 350px;
+	background: #f4f4f4; 
+	margin-bottom: -15px;
+}
 .commercial {
 	position: relative;
 	padding-top: 150px;
