@@ -14,7 +14,7 @@
 					<div class="card-body">
 						<h3 class="card-title main-header-left"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 						<div class="mb-3">
-							<em><?php the_date('l, F j, Y'); ?></em>
+							<small><em><?php the_date('l, F j, Y'); ?></em></small>
 						</div>
 						<div class="card-text mb-5">
 							<?php the_excerpt(); ?>

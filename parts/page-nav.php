@@ -45,8 +45,8 @@
 		</div>
 		<div class="col-lg-4">
 			<div class="btn-group btn-group-sm float-right" role="group" aria-label="Basic example">
-  				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0">Commercial</a>
-  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0">Homeowner</a>
+  				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
+  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
   			</div>
 		</div>
 	</div>
@@ -60,8 +60,8 @@
 		</div>
 		<div class="col-lg-6 text-center">
 			<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-  				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0">Commercial</a>
-  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0">Homeowner</a>
+  				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
+  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
   			</div>
 		</div>
 	</div>

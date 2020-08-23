@@ -59,6 +59,7 @@
 		'pre-construction-services',
 		'construction-services',
 		'after-sale-support',
+		'backflow-preventer',
 	) ) ) {
 		echo get_template_part ('parts/page', 'commercial-nav');
 	} elseif ( is_page ( array( 
@@ -91,6 +92,13 @@
 		'ventilation',
 	) ) ) {
 		echo get_template_part ('parts/page', 'homeowner-nav');
+	} elseif ( is_page ( array( 
+		'enter-contact-info-below-be-contacted-about-ensuring-your-new-homes-equipment-warranty',
+		'sobieski-21-point-inspection',
+		'service-partner-plans-anthem',
+		'welcome-your-new-home-aviemore-ravenglass-lynemore-tweedsmere',
+	) ) ) {
+		echo get_template_part ('parts/page', 'new-home-nav');
 	} else {
 		echo get_template_part( 'parts/page', 'nav' );
 	}?>
