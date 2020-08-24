@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Commercial Pages
+* Template Name: Promotions
 *
 * @package WordPress
 * @subpackage Sobieski Inc
@@ -10,7 +10,9 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/page', 'blog-loop' ); ?> 
 
-<?php get_template_part( 'parts/page', 'comm-subnav' ); ?>
+<?php get_template_part( 'parts/page', 'homeowner-promotions' ); ?>
+
+<?php get_template_part( 'parts/page', 'home-header' ); ?>
 
 <?php get_template_part( 'parts/page', 'contact-us' ); ?>
 
