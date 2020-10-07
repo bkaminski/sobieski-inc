@@ -239,6 +239,7 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 		</div>
+	</div>
 	
 	<!-- New Jersey -->
 	<div class="career-nj">
@@ -273,6 +274,7 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
+
 
 	<!-- Philadelphia -->
 	<div class="career-philadelphia">
@@ -341,6 +343,7 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
+
 	
 			
 <!-- York PA -->

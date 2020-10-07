@@ -1,7 +1,7 @@
 <section class="related-posts">
 	<div class="container pt-5">
 		<div class="row">
-			<?php query_posts('orderby=rand&posts_per_page=3'); if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+			<?php query_posts('posts_per_page=3&orderby=rand'); if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 			<?php $featImg = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full' );?>
 
 			<div class="col-lg card-deck mb-5">
@@ -23,7 +23,8 @@
 					</div>
 				</div>
 			</div>
-			<?php endwhile; ?> <?php wp_reset_query(); ?>
+			<?php endwhile; ?> 
+			<?php wp_reset_query(); ?>
 		</div>
 	</div>
 </section>

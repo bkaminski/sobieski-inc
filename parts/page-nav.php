@@ -39,6 +39,7 @@
 		<div class="col-lg-4">
 		</div>
 		<div class="col-lg-4 text-center">
+			<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2">Schedule Appointment Online</button>
 			<div class="phone-numbers">
 				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 			</div>
@@ -54,6 +55,7 @@
 <div class="container-fluid pb-2 d-block d-lg-none">
 	<div class="row">
 		<div class="col-lg-6 text-center">
+			<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2">Schedule Appointment Online</button>
 			<div class="phone-numbers">
 				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 			</div>

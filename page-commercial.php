@@ -10,7 +10,7 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/page', 'comm-header' ); ?>
 
-<?php get_template_part( 'parts/page', 'contact-us' ); ?>
+<?php get_template_part( 'parts/page', 'comm-contact' ); ?>
 	
 	<div class="mission">
 		<div class="container text-center pt-5 pb-4">

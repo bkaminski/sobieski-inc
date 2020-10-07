@@ -45,6 +45,20 @@ if ( is_array( $plugins ) ) {
 } else {
 	return array();
 }}
+
+//REMOVE CAREERS FROM SEARCH
+add_action( 'init', 'remove_careers_from_search', 99 );
+
+function remove_careers_from_search() {
+	global $wp_post_types;
+
+	if ( post_type_exists( 'careers' ) ) {
+
+		// exclude from search results
+		$wp_post_types['careers']->exclude_from_search = true;
+	}
+}
+
 //REMOVE THE TYPE ATTRIBUTE FROM JAVASCRIPT FILES
 add_action('wp_loaded', 'prefix_output_buffer_start');
 function prefix_output_buffer_start() { 
@@ -97,3 +111,14 @@ if (defined('WPSEO_VERSION')) {
 }
 //AUTO UPDATE PLUGINS
 add_filter( 'auto_update_plugin', '__return_true' );
+
+//Change WP Emails and email address away from "WordPress" as sender
+function sobieski_mail_name( $email ){
+  return 'Sobieski Services Inc.'; // new email name from sender.
+}
+add_filter( 'wp_mail_from_name', 'sobieski_mail_name' );
+
+function sobieski_mail_from ($email ){
+  return 'info@sobieskiinc.com'; // new email address from sender.
+}
+add_filter( 'wp_mail_from', 'sobieski_mail_from' );

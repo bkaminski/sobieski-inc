@@ -81,6 +81,11 @@ if ($('.blog, .page-template-page-commercial-php')[0]){
 	
 }
 
+//SHOW SCHEDULE ENGIN
+$( ".schedule--engine" ).click(function() {
+  ScheduleEngine.show()
+});
+
 //TRIGGER SEARCH MODAL
     $(".sobieski-search-modal").click(function(){
         $("#searchModal").modal('show');

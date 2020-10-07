@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-	<div class="container">
-		<div class="alert alert-info mt-3 shadow">
+	<div class="container" style="padding-top: 10rem;">
+		<div class="alert alert-info mt-3 shadow mb-5">
 			<h4 class="text-uppercase text-center pt-2">
 				<?php printf( __( 'Search Results for: "%s"', 'sobieski-inc' ), get_search_query() ); ?>
 

@@ -1,8 +1,4 @@
 <footer class="footer">
-	<button class="se-widget-button" type="button" onclick="ScheduleEngine.show()">
-  Book Now!
-</button>
-
 <a href="#" id="scroll" style="display: none;"><span></span></a>
 	<div class="container">
 		<h2 class="foot-heading">Sign up for our newsletter</h2>
