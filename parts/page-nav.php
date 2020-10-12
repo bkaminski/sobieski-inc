@@ -44,7 +44,7 @@
 			} elseif ( is_home () ) { 
 			   //nada!
 			} else { ?>
-				<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
+				<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
 			<?php } ?>
 			
 			<div class="phone-numbers">
@@ -67,7 +67,7 @@
 			} elseif ( is_home () ) { 
 			   //nada!
 			} else { ?>
-				<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
+				<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
 			<?php } ?>
 			
 			<div class="phone-numbers">
