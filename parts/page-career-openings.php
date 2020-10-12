@@ -170,7 +170,7 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 		</div>
-
+	</div>
 	<!-- Executive -->
 	<div class="career-executive">
 		<h4 class="text-center text-uppercase">Executive</h4>

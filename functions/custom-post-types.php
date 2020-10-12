@@ -38,3 +38,23 @@ function careers_tag() {
 add_action('init', 'careers_tag');
 
 // ======================================================================================== //
+
+function add_custom_id_column ( $columns ) {
+    return array_merge ( $columns, array (
+        'custom_id' => __ ( 'Requisition ID' ),
+    ) );
+};
+
+add_filter( 'manage_careers_posts_columns', 'add_custom_id_column' );
+
+
+function fill_custom_column ( $column, $post_id ) {
+    switch ( $column ) {
+
+        case 'custom_id':
+            echo get_field('requisition_id', $post_id);
+            break;
+
+    }
+}
+add_action ( 'manage_careers_posts_custom_column', 'fill_custom_column', 10, 2 );

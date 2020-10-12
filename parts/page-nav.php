@@ -39,13 +39,20 @@
 		<div class="col-lg-4">
 		</div>
 		<div class="col-lg-4 text-center">
-			<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2">Schedule Appointment Online</button>
+			<?php if ( is_front_page() ) {
+			   //nada :)
+			} elseif ( is_home () ) { 
+			   //nada!
+			} else { ?>
+				<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
+			<?php } ?>
+			
 			<div class="phone-numbers">
 				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 			</div>
 		</div>
 		<div class="col-lg-4">
-			<div class="btn-group btn-group-sm float-right" role="group" aria-label="Basic example">
+			<div class="btn-group btn-group-sm float-right" role="group" aria-label="Sub-nav Options">
   				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
   				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
   			</div>
@@ -55,13 +62,20 @@
 <div class="container-fluid pb-2 d-block d-lg-none">
 	<div class="row">
 		<div class="col-lg-6 text-center">
-			<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2">Schedule Appointment Online</button>
+			<?php if ( is_front_page() ) {
+			   //nada :)
+			} elseif ( is_home () ) { 
+			   //nada!
+			} else { ?>
+				<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
+			<?php } ?>
+			
 			<div class="phone-numbers">
 				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 			</div>
 		</div>
 		<div class="col-lg-6 text-center">
-			<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+			<div class="btn-group btn-group-sm" role="group" aria-label="Sub-nav Options">
   				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
   				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
   			</div>

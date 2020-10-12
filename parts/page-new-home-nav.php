@@ -1,3 +1,29 @@
+<script>
+  WebChat.loadChat({
+    "apiKey": "sci48bm7s65xpqh1oxrovn553mqyfwiz",
+    "initialMessage":"How can we make you smile today?",
+    "initialResponses":[],
+    "logoUrl":"https://www.sobieskiinc.com/wp-content/uploads/2020/06/revised_logo.png",
+    "title":"Welcome",
+    "primaryAccentColor":"#cc433a",
+    "primaryAccentTextColor":"#FFFFFF",
+    "backgroundColor":"#FFFFFF",
+    "agentBubbleBackgroundColor":"#cc433a",
+    "agentBubbleTextColor":"#FFFFFF",
+    "bubbleBackgroundColor":"#F1F1F1",
+    "bubbleTextColor":"#000000",
+    "sendButtonBackgroundColor":"#cc433a",
+    "sendButtonTextColor":"#FFFFFF",
+    "suggestedResponseColor":"#cc433a",
+    "autoOpen":true,
+    "autoOpenMobile":false,
+    "position":"right",
+    "buttonBackgroundColor":"#cc433a",
+    "buttonText":"Chat with Us",
+    "buttonTextColor":"#FFFFFF",
+    "autoOpenDelay":3
+  });
+</script>
 <div class="statement text-center">
 	<p class="font-weight-bold"><span class="essential">AN ESSENTIAL SERVICE PROVIDER.</span> Read our <a href="<?php echo get_home_url(); ?>/coronavirus-statement"><u class="text-dark">Statement</u></a> on Coronavirus</p>
 </div>
