@@ -99,7 +99,7 @@
 	clear: both;
 	position: relative;
 	overflow: hidden;
-	height: 289px;
+	min-height: 289px;
 
   	&:before {
   		content: "";
@@ -235,8 +235,8 @@
 }
 #scroll {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
+  right: 15px;
+  bottom: 80px;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -501,4 +501,18 @@ a.career-link {
 	font-size: 0.8rem;
 	font-weight: bold;
 	color: #222;
+}
+.schedule-btn-lg {
+	background:#cd2930;
+	color:#fff;
+	font-size:1.7em;
+	border:1px solid #fff;
+}
+.schedule-btn-md {
+	background:#cd2930;
+	color:#fff;
+	font-size:1.5em;
+	position:relative;
+	border:1px solid #fff;
+	z-index: 10;
 }

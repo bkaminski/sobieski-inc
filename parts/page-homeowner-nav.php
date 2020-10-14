@@ -1,3 +1,4 @@
+<script src="https://webchat.scheduleengine.net/webchat-v1.js"></script>
 <script>
   WebChat.loadChat({
     "apiKey": "sci48bm7s65xpqh1oxrovn553mqyfwiz",
@@ -116,14 +117,6 @@
 		</div>
 		<div class="col-lg-4 text-center">
 			<div class="phone-numbers">
-				<?php if ( is_front_page() ) {
-				//nada :)
-				} elseif ( is_home () ) { 
-			   //nada!
-				} else { ?>
-					<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
-				<?php } ?>
-
 				<p class="h5 font-weight-bold">Homeowners: 866-477-4404</p>
 			</div>
 		</div>
@@ -140,14 +133,6 @@
 	<div class="row">
 		<div class="col-lg-6 text-center">
 			<div class="phone-numbers">
-				<?php if ( is_front_page() ) {
-				//nada :)
-				} elseif ( is_home () ) { 
-			   //nada!
-				} else { ?>
-					<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
-				<?php } ?>
-
 				<p class="h5 font-weight-bold">Homeowners: 866-477-4404</p>
 			</div>
 		</div>

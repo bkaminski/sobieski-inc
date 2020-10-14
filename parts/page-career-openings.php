@@ -136,7 +136,8 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
-	</div>
+</div>
+	
 	<!-- Delaware -->
 	<div class="career-delaware">
 		<h4 class="text-center text-uppercase">Delaware</h4>
@@ -204,7 +205,7 @@
 					<?php } ?>
 				<?php endwhile; } wp_reset_query(); ?>
 		</div>
-	</div>
+	
 
 	<!-- King of Prussia -->
 	<div class="career-kop">
@@ -239,7 +240,7 @@
 				<?php } ?>
 			<?php endwhile; } wp_reset_query(); ?>
 		</div>
-	</div>
+	
 	
 	<!-- New Jersey -->
 	<div class="career-nj">
@@ -344,7 +345,7 @@
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
 
-	
+	</div>
 			
 <!-- York PA -->
 	<div class="career-york">
@@ -380,3 +381,4 @@
 			<?php endwhile; } wp_reset_query(); ?>
 	</div>
 
+</div>

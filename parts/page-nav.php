@@ -39,14 +39,6 @@
 		<div class="col-lg-4">
 		</div>
 		<div class="col-lg-4 text-center">
-			<?php if ( is_front_page() ) {
-			   //nada :)
-			} elseif ( is_home () ) { 
-			   //nada!
-			} else { ?>
-				<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
-			<?php } ?>
-			
 			<div class="phone-numbers">
 				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 			</div>
@@ -62,14 +54,6 @@
 <div class="container-fluid pb-2 d-block d-lg-none">
 	<div class="row">
 		<div class="col-lg-6 text-center">
-			<?php if ( is_front_page() ) {
-			   //nada :)
-			} elseif ( is_home () ) { 
-			   //nada!
-			} else { ?>
-				<button class="btn btn-outline-sobieski-red btn-sm rounded-0 mb-2" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw"></i> Schedule Service Online</button>
-			<?php } ?>
-			
 			<div class="phone-numbers">
 				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
 			</div>
