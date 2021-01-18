@@ -72,9 +72,20 @@
 	min-height: 500px;
 	transition: 0.3s ease-in-out;
 }
+.home-builders {
+	position: relative;
+	padding-top: 150px;
+	background: #222;
+	background-image: url('../../../../uploads/2021/01/home-builders-cover-photo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:top center;
+	min-height: 500px;
+	transition: 0.3s ease-in-out;
+}
 .main-heading {
 	position: relative;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	color: #fff;
 	transition: 0.3s ease-in-out;
 	&:hover {
@@ -514,4 +525,62 @@ a.career-link {
 	font-size:1.5em;
 	position:relative;
 	border:1px solid #fff;
+}
+.img-hover-zoom {
+  height: 300px; /* [1.1] Set it as per your need */
+  overflow: visible; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+border-color: #EBB232;
+background: #EBB232;
+}
+.wpcf7 form.spam .wpcf7-response-output {
+color: #fff;
+border-color: #ff3636;
+background: #ff3636;
+}
+.dropdown-menu.columns-3 {
+	min-width: 720px;
+}
+.multi-column-dropdown {
+	list-style: none;
+  	margin: 0px;
+  	padding: 0px;
+}
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+.finance-cta {
+	position: absolute;
+	width: 100%;
+	min-height: 30px;
+	bottom: 0;
+}
+.finance-button {
+	text-align: center;
+	margin-bottom: 15px;
+	@include breakpoint (md) {
+		float: right;
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}
+}
+.sobieski-signature {
+	color: #fff;
+	width: 100%;
+	min-height: 250px;
+	background: #1f508b;
 }

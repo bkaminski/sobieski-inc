@@ -12,4 +12,6 @@
 
 <?php get_template_part( 'parts/page', 'affiliates' ); ?>
 
+<?php get_template_part( 'parts/page', 'sobieski-signature' ); ?>
+
 <?php get_footer(); ?>

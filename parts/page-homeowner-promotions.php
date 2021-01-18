@@ -53,19 +53,25 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 kill-padding">
-				<div class="promo text-center pt-5" style="background:url('<?php the_field('promo_9_img'); ?>') no-repeat;background-size:cover;">
-					<h1 class="text-white text-uppercase text-center h3 font-weight-bold"><?php the_field('promo_9_text'); ?></h1>
-					<a href="<?php the_field('promo_9_link'); ?>" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Read More</a>
-				</div>
-			</div>
-			<div class="col-md-4 kill-padding">
+			<div class="col-md-3 kill-padding">
 				<div class="promo text-center pt-5" style="background:url('<?php the_field('promo_10_img'); ?>') no-repeat;background-size:cover;">
 					<h1 class="text-white text-uppercase text-center h3 font-weight-bold"><?php the_field('promo_10_text'); ?></h1>
 					<a href="<?php the_field('promo_10_link'); ?>" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Read More</a>
 				</div>
 			</div>
-			<div class="col-md-4 kill-padding">
+			<div class="col-md-3 kill-padding">
+				<div class="promo text-center pt-5" style="background:url('<?php the_field('promo_9_img'); ?>') no-repeat;background-size:cover;">
+					<h1 class="text-white text-uppercase text-center h3 font-weight-bold"><?php the_field('promo_9_text'); ?></h1>
+					<a href="<?php the_field('promo_9_link'); ?>" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-3 kill-padding">
+				<div class="promo text-center pt-5" style="background:url('<?php the_field('promo_12_img'); ?>') no-repeat;background-size:cover;">
+					<h1 class="text-white text-uppercase text-center h3 font-weight-bold"><?php the_field('promo_12_text'); ?></h1>
+					<a href="<?php the_field('promo_12_link'); ?>" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Read More</a>
+				</div>
+			</div>
+			<div class="col-md-3 kill-padding">
 				<div class="promo text-center pt-5" style="background:url('<?php the_field('promo_11_img'); ?>') no-repeat;background-size:cover;">
 					<h1 class="text-white text-uppercase text-center h3 font-weight-bold"><?php the_field('promo_11_text'); ?></h1>
 					<a href="<?php the_field('promo_11_link'); ?>" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Read More</a>

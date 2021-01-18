@@ -22,7 +22,7 @@
     "buttonBackgroundColor":"#cc433a",
     "buttonText":"Chat with Us",
     "buttonTextColor":"#FFFFFF",
-    "autoOpenDelay":3
+    "autoOpenDelay":30,
   });
 </script>
 <div class="statement text-center">
@@ -62,39 +62,82 @@
 				<ul class="nav sub-nav float-right">
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Neighborhood Links</a>
-						<div class="dropdown-menu dropdown-menu-right">	
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-anthem">Anthem</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-abbots-pond">Abbot's Pond</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-your-new-home-aviemore-ravenglass-lynemore-tweedsmere">Aviemore-Lynemore</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-brookstone">Brookstone</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-canal-view">Canal View</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-chestnut-hill-preserve">Chestnut Hill Preserve</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-clearview-meadow">Clearview Meadow</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-coastal-club">Coastal Club</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-hickory-hollow">Hickory Hollow</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-high-hook-farms">High Hook Farms</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-high-pointe">High Pointe</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-hyetts-crossing">Hyetts Crossing</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-lewes-crossing">Lewes Crossing</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-lighthouse-lakes">Lighthouse Lakes</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-masseys-mill">Massey's Mill</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-milford-ponds">Milford Ponds</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-parkside">Parkside</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-pelican-point">Pelican Point</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-peninsula-lakes">Peninsula Lakes</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-rothwell-estates">Rothwell Estates</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-sawgrass">Sawgrass</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-silver-wind-estates">Silver Wind Estates</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-solitude-on-white-creek">Solitude on White Creek</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-spring-oaks">Spring Oaks</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-estuary">The Estuary</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-the-overlook">The Overlook</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-the-parkway-at-south-ridge">The Parkway at South Ridge</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-the-preserve-at-deep-creek">The Preserve at Deep Creek</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-the-reserves">The Reserves</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-the-woods-at-arnell-creek">The Woods at Arnell Creek</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-tidbury-crossing-0">Tidbury Crossing</a>
-						</div>
+							<ul class="dropdown-menu multi-column columns-3 dropdown-menu-right">
+								<div class="row">
+			            			<div class="col-sm-4">
+			            				<ul class="multi-column-dropdown">
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-anthem">Anthem</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-abbots-pond">Abbot's Pond</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-ashland">Ashland</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-aviemore-odessa-national">Aviemore</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-avonbridge">Avonbridge</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-bancroft-square">Bancroft Square</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-baston-creek">Baston Creek</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-bay-colony">Bay Colony</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-bay-forest-resort">Bay Forest Resort</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-bay-pointe">Bay Pointe</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-bayside">Bayside</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-brookstone">Brookstone</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-canal-view">Canal View</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-chestnut-hill-preserve">Chestnut Hill Preserve</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-clearview-meadow">Clearview Meadow</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-coastal-club">Coastal Club</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-darley-green">Darley Green</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-fox-haven">Fox Haven</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-governors">Governors</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-harbor-point">Harbor Point</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-4">
+			            				<ul class="multi-column-dropdown">
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-hickory-hollow">Hickory Hollow</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-high-hook-farms">High Hook Farms</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-high-pointe">High Pointe</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-highlands-pointe">Highlands Pointe</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-hyetts-crossing">Hyetts Crossing</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-hyetts-crossing-townhomes">Hyetts Crossing Townhomes</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-independence">Independence</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-jefferson-creek">Jefferson Creek</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-lake-como-woods">Lake Como Woods</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-lewes-crossing">Lewes Crossing</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-lighthouse-lakes">Lighthouse Lakes</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-marsh-farm-estates">Marsh Farm Estates</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-masseys-mill">Massey's Mill</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-meridian-crossing">Meridian Crossing</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-middle-creek-preserve">Middle Creek Preserve</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-milford-ponds">Milford Ponds</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-oakwood">Oakwood</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-ocean-meadows">Ocean Meadows</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-parkside">Parkside</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-pelican-point">Pelican Point</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-4">
+			            				<ul class="multi-column-dropdown">
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-peninsula-lakes">Peninsula Lakes</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-your-new-home-ravenglass-lynemore-tweedsmere/">Ravenglass - Lynemore</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-river-crest">Rivercrest</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-rockford-falls">Rockford Falls</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-rothwell-estates">Rothwell Estates</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-saddleridge">Saddleridge</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-sawgrass">Sawgrass</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-silver-woods">Silver Woods</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-silver-wind-estates">Silver Wind Estates</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-solitude-on-white-creek">Solitude on White Creek</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-spring-oaks">Spring Oaks</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-stone-brooke">Stone Brooke</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-estuary">The Estuary</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-the-overlook">The Overlook</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-the-parkway-at-south-ridge">The Parkway at South Ridge</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-the-preserve-at-deep-creek">The Preserve at Deep Creek</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-the-reserves">The Reserves</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-the-woods-at-arnell-creek">The Woods at Arnell Creek</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-tidbury-crossing-0">Tidbury Crossing</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-whitehall">Whitehall</a></li>
+										</ul>
+									</div>
+								</div>
+							</ul>
 					</li>
 				</ul>
 		</div>
@@ -107,7 +150,7 @@
 		<div class="col-lg-4 text-center">
 			<div class="phone-numbers">
 				<div class="phone-numbers">
-					<p class="h5 font-weight-bold">Homeowners: 866-477-4404</p>
+					<p class="h5 font-weight-bold">Homeowners: <?php the_field('neighborhood_phone_number'); ?></p>
 				</div>
 			</div>
 		</div>
@@ -124,7 +167,7 @@
 		<div class="col-lg-6 text-center">
 			<div class="phone-numbers">
 				<div class="phone-numbers">
-					<p class="h5 font-weight-bold">Homeowners: 866-477-4404</p>
+					<p class="h5 font-weight-bold">Homeowners: <?php the_field('neighborhood_phone_number'); ?></p>
 				</div>
 			</div>
 			<div class="col-lg-6 text-center">

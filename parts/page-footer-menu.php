@@ -23,6 +23,7 @@
 	<div class="col-sm-4">
 		<ul class="list-unstyled text-uppercase text-white">
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/homeowner">Homeowners</a></li>
+			<li class="pb-3"><a class="text-white" target="_blank" href="https://linkprotect.cudasvc.com/url?a=https%3a%2f%2fapply.svcfin.com%2fhome%2fdealerAuthentication%3fid%3d400215148%26key%3d1742219857&c=E,1,vAHNIwGS-6v5oUtyz65XIgqPXFlCW_yZk9qtY1KOCEbRrMlKLPsbigJfzTMMtoMKqb92p1wOa0zb-XZjtc0Snsq3oboiEPq0lOev9TisyA,,&typo=1">Financing Available</a></li>
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/service-category/heating-air-conditioning/">Heating &amp; Air Conditioning</a></li>
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/service-category/indoor-air-quality/">Indoor Air Quality</a></li>
 			<li class="pb-3"><a class="text-white" href="<?php echo get_home_url(); ?>/service-category/plumbing-drain-services/">Plumbing &amp; Drain Services</a></li>

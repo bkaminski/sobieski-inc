@@ -67,15 +67,6 @@
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/very-important-protection-club">VIP Club</a>
 						</div>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Home Builder Services</a>
-						<div class="dropdown-menu dropdown-menu-right">	
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/home-builder-services">About Home Builder Services</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/pre-construction-services">Pre-Construction Services</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/construction-services">Construction Services</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/after-sale-support">After Sale Support</a>
-						</div>
-					</li>
 				</ul>
 		</div>
 	</div>

@@ -4,8 +4,15 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="logo-wrapper">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
-			<?php $uploads = wp_upload_dir(); 
-			echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/06/revised_logo.png' ) . '" class="logo-img d-none d-lg-block" alt="Sobieski Inc Logo">'; ?>
+
+			<?php if ( is_page( array( 9391, 9392 ) ) ) {
+				$uploads = wp_upload_dir();
+				echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/Sobieski-Homeowner.png' ) . '" class="logo-img d-none d-lg-block" alt="Sobieski Inc Logo">'; 
+			} else {
+				$uploads = wp_upload_dir();
+				echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/06/revised_logo.png' ) . '" class="logo-img d-none d-lg-block" alt="Sobieski Inc Logo">';
+			}; ?>
+				
 		</a>
 	</div>
 	<div class="d-block d-lg-none">

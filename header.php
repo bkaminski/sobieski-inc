@@ -11,12 +11,14 @@
   gtag('config', 'UA-20056162-1');
 </script>
  
-<!-- Google Tag Manager  -->
+<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NDC52G4');</script>
+})(window,document,'script','dataLayer','GTM-WKG5XXC');</script>
+<!-- End Google Tag Manager -->
+
 
  <!-- Facebook Pixel Code  -->
 <script>
@@ -59,9 +61,10 @@ src="https://www.facebook.com/tr?id=2340589909519481&ev=PageView&noscript=1"
 </head>
 <body <?php body_class(); ?>>
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NDC52G4"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKG5XXC"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
 	<?php if ( is_front_page() ) {
 		echo get_template_part( 'parts/page', 'nav' );
 	} elseif ( is_home () ) {
@@ -76,7 +79,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		'water-heating',
 		'business-property-owners',
 		'general-contractors',
-		'home-builders',
 		'facility-managers',
 		'mechanical-construction',
 		'bim-3d-modeling',
@@ -94,13 +96,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		'emergency-service',
 		'service-repair-maintenance',
 		'very-important-protection-club',
+		'backflow-preventer',
+	) ) ) {
+		echo get_template_part ('parts/page', 'commercial-nav');
+	} elseif ( is_page ( array(
+		'home-builders',
 		'home-builder-services',
 		'pre-construction-services',
 		'construction-services',
 		'after-sale-support',
-		'backflow-preventer',
 	) ) ) {
-		echo get_template_part ('parts/page', 'commercial-nav');
+		echo get_template_part ('parts/page', 'home-builder-nav');
 	} elseif ( is_page ( array( 
 		'homeowner',
 		'heating-air-conditioning',
@@ -132,10 +138,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	) ) ) {
 		echo get_template_part ('parts/page', 'homeowner-nav');
 	} elseif ( is_page ( array( 
+		'save-52-your-plumbing-repair-today',
+		'10-off-10-year-warranty-on-full-system-replacement',
+		'take-52-your-next-air-conditioning-repair',
+		'heating-tune-ups-starting-89',
+		'30-off-water-purification',
+		'15-toilet-repair-20-toilet-replacement',
+		'weekly-specials',
+		'30-indoor-air-quality-products',
+		'full-system-installed-starting-98-month',
+		'schedule-your-free-hvac-system-replacement-estimate-today',
 		'enter-contact-info-below-be-contacted-about-ensuring-your-new-homes-equipment-warranty',
 		'sobieski-21-point-inspection',
 		'service-partner-plans-anthem',
+		'homeowner-promotions',
 		'welcome-your-new-home-aviemore-ravenglass-lynemore-tweedsmere',
+		'service-partner-plans-bancroft-square',
+		'service-partner-plans-bayside',
 		'welcome-to-your-new-home-in-brookstone',
 		'service-partner-plans-canal-view',
 		'welcome-to-your-new-home-in-chestnut-hill-preserve',
@@ -165,6 +184,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		'service-partner-plans-the-woods-at-arnell-creek',
 		'service-partner-plans-tidbury-crossing-0',
 		'service-partner-plans-abbots-pond',
+		'service-partner-plans-baston-creek',
+		'service-partner-plans-darley-green',
+		'service-partner-plans-oakwood',
+		'service-partner-plans-river-crest',
+		'service-partner-plans-silver-woods',
+		'service-partner-plans-stone-brooke',
+		'service-partner-plans-whitehall',
+		'welcome-your-new-home-ravenglass-lynemore-tweedsmere',
+		'service-partner-plans-independence',
+		'service-partner-plans-lake-como-woods',
+		'service-partner-plans-aviemore-odessa-national',
+		'service-partner-plans-avonbridge',
+		'service-partner-plans-bay-colony',
+		'service-partner-plans-bay-pointe',
+		'service-partner-plans-ashland',
+		'service-partner-plans-bay-forest-resort',
+		'service-partner-plans-fox-haven',
+		'service-partner-plans-governors',
+		'service-partner-plans-harbor-point',
+		'service-partner-plans-highlands-pointe',
+		'service-partner-plans-jefferson-creek',
+		'service-partner-plans-hyetts-crossing-townhomes',
+		'service-partner-plans-marsh-farm-estates',
+		'service-partner-plans-meridian-crossing',
+		'service-partner-plans-middle-creek-preserve',
+		'service-partner-plans-ocean-meadows',
+		'service-partner-plans-rockford-falls',
+		'service-partner-plans-saddleridge'
+
 	) ) ) {
 		echo get_template_part ('parts/page', 'new-home-nav');
 	} else {

@@ -22,7 +22,7 @@
     "buttonBackgroundColor":"#cc433a",
     "buttonText":"Chat with Us",
     "buttonTextColor":"#FFFFFF",
-    "autoOpenDelay":3
+    "autoOpenDelay":30
   });
 </script>
 
@@ -68,6 +68,7 @@
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-repairs">Heating Repairs</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-installation-replacement">Heating Installation and Replacement</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/air-conditioning-repairs">Air Conditioning Repairs</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/lennox">Lennox Partner Information</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/ac-installation-replacement">AC Installation &amp; Replacement</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-cooling-pro-check">Heating &amp; Cooling Pro Check</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans">Service Partner Plans</a>
