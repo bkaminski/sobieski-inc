@@ -55,7 +55,7 @@
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Fire, Alarm &amp; Security</a>
-						<div class="dropdown-menu">	
+						<div class="dropdown-menu dropdown-menu-right">	
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/fire-alarm-security">About Fire, Alarm &amp; Security</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/fire-alarm-systems">Fire Alarm Systems</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/security-systems">Security Systems</a>
@@ -82,8 +82,9 @@
 		</div>
 		<div class="col-lg-4">
 			<div class="btn-group btn-group-sm float-right" role="group" aria-label="Basic example">
-  				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
-  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
+				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
+  				<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-hammer"></i> Home Builders</a>
+  				<a href="<?php echo get_home_url(); ?>/guide/enter-contact-info-below-be-contacted-about-ensuring-your-new-homes-equipment-warranty" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> New Construction</a>
   			</div>
 		</div>
 	</div>
@@ -97,8 +98,9 @@
 		</div>
 		<div class="col-lg-6 text-center">
 			<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-  				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
-  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
+				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
+  				<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-hammer"></i> Home Builders</a>
+  				<a href="<?php echo get_home_url(); ?>/guide/enter-contact-info-below-be-contacted-about-ensuring-your-new-homes-equipment-warranty" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> New Construction</a>
   			</div>
 		</div>
 	</div>

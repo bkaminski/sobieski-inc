@@ -69,6 +69,7 @@
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-installation-replacement">Heating Installation and Replacement</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/air-conditioning-repairs">Air Conditioning Repairs</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/lennox">Lennox Partner Information</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/goodman">Goodman Partner Information</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/ac-installation-replacement">AC Installation &amp; Replacement</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-cooling-pro-check">Heating &amp; Cooling Pro Check</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans">Service Partner Plans</a>
@@ -94,6 +95,7 @@
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/water-heaters">About Water Heaters</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/water-heater-installation-replacement">Water Heater Installation/Replacement</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/why-tankless">Why Tankless?</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/bradfordwhite">Bradford White Partner Information</a>
 						</div>
 					</li>
 					<li class="nav-item dropdown">
@@ -103,6 +105,8 @@
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/dehumidifiers">Dehumidifiers</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/humidifiers">Humidifiers</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/air-advice">Indoor Air Quality Analysis</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/lennox-iaq-systems">Lennox IAQ Systems</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/goodman-iaq-systems">Goodman IAQ Systems</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/merv-air-filtration">Merv Air Filtration</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/uv-air-quality-products">UV Air Quality Products</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/ventilation">Ventilation</a>
@@ -124,7 +128,7 @@
 		<div class="col-lg-4">
 			<div class="btn-group btn-group-sm float-right" role="group" aria-label="Basic example">
   				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
-  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
+  				<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-hammer"></i> Home Builders</a>
   				<a href="<?php echo get_home_url(); ?>/guide/enter-contact-info-below-be-contacted-about-ensuring-your-new-homes-equipment-warranty" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> New Construction</a>
   			</div>
 		</div>
@@ -140,7 +144,7 @@
 		<div class="col-lg-6 text-center">
 			<div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
   				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
-  				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
+  				<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-hammer"></i> Home Builders</a>
   				<a href="<?php echo get_home_url(); ?>/guide/enter-contact-info-below-be-contacted-about-ensuring-your-new-homes-equipment-warranty" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> New Construction</a>
   			</div>
 		</div>

@@ -5,13 +5,13 @@
 	<div class="logo-wrapper">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
 			<?php $uploads = wp_upload_dir(); 
-			echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/06/revised_logo.png' ) . '" class="logo-img d-none d-lg-block" alt="Sobieski Inc Logo">'; ?>
+			echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/Sobieski-Homeowner.png' ) . '" class="logo-img d-none d-lg-block" alt="Sobieski Inc Logo">'; ?>
 		</a>
 	</div>
 	<div class="d-block d-lg-none">
 		<a class="text-center" href="<?php echo get_home_url(); ?>">
 				<?php $uploads = wp_upload_dir(); 
-				echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/06/revised_logo.png' ) . '" class="logo-img" alt="Sobieski Inc Logo">'; ?>
+				echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/Sobieski-Homeowner.png' ) . '" class="logo-img" alt="Sobieski Inc Logo">'; ?>
 		</a>
 	</div>
 	<div class="clearfix"></div>

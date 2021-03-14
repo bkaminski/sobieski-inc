@@ -11,9 +11,13 @@
 </footer>
 <?php get_template_part( 'parts/page', 'search-modal' ); ?>
 
-<?php wp_footer(); ?>
-
+<?php if ( is_front_page() ) { 
+	//DO NOTHING
+} else { ?>
 <!-- Schedule Engine -->
 <script data-api-key="ckar16ifj00vh08nxzdvsxebh" id="se-widget-embed" src="https://embed.scheduleengine.net/schedule-engine-v2.js"></script>
+<?php } ?>
+<?php wp_footer(); ?>
+
 </body>
 </html>

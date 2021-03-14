@@ -8,10 +8,10 @@
 */
 get_header(); ?>
 
-<article>
+<header>
 	<?php get_template_part( 'parts/page', 'cpt-blog-loop' ); ?>
 
-</article>
+</header>
 <main class="career-hero">
 	<?php get_template_part( 'parts/page', 'career-hero' ); ?>
 

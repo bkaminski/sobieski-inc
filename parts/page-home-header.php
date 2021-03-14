@@ -10,10 +10,21 @@
 						<li>All-In-One Solutions For:</li>
 						<li>General Contractors</li>
 						<li>Facility Managers</li>
-						<li>Home Builders</li>
 						<li>Business & Property Owners</li>
 					</ul>
 					<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 font-weight-bold">Read More</a>
+				</div>
+			</div>
+			<div class="col-lg-4 kill-padding">
+				<div class="home-builders text-center">
+					<h1 class="main-header-hero text-uppercase font-weight-bold">
+						<a class="main-heading" href="<?php echo get_home_url(); ?>/audience/home-builders">Home Builders</a>
+					</h1>
+					<ul class="list-unstyled text-white">
+						<li>Regional / National Builders</li>
+						<li>Custom Home Builders</li>
+					</ul>
+					<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 font-weight-bold">Read More</a>
 				</div>
 			</div>
 			<div class="col-lg-4 kill-padding">
@@ -29,21 +40,6 @@
 						<li>Service Agreements</li>
 					</ul>
 					<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 font-weight-bold">Read More</a>
-				</div>
-			</div>
-			<div class="col-lg-4 kill-padding">
-				<div class="home-builders text-center">
-					<h1 class="main-header-hero text-uppercase font-weight-bold">
-						<a class="main-heading" href="<?php echo get_home_url(); ?>/audience/home-builders">Home Builders</a>
-					</h1>
-					<ul class="list-unstyled text-white">
-						<li>Pre Construction Services</li>
-						<li>New Construction Support</li>
-						<li>After Sale Support</li>
-						<li>Residental HVAC</li>
-						<li>Home Building Services</li>
-					</ul>
-					<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 font-weight-bold">Read More</a>
 				</div>
 			</div>
 		</div>

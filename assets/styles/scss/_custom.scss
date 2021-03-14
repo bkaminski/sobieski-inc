@@ -549,13 +549,15 @@ color: #fff;
 border-color: #ff3636;
 background: #ff3636;
 }
+
+
 .dropdown-menu.columns-3 {
 	min-width: 720px;
 }
 .multi-column-dropdown {
 	list-style: none;
-  	margin: 0px;
-  	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 @media (max-width: 767px) {
 	.dropdown-menu.multi-column {
@@ -583,4 +585,16 @@ background: #ff3636;
 	width: 100%;
 	min-height: 250px;
 	background: #1f508b;
+}
+.spp-cookie {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	min-height: 20px;
+	z-index: 1;
+	margin-bottom:-20px;
+}
+.alert-blue {
+	background: #1f508b;
+	color: #fff;
 }

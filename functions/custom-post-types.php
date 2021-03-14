@@ -26,7 +26,7 @@ function register_careers_cpt() {
 		'label' => 'Careers',
 		'public' => true, 
 		'capability_type' => 'post',
-		'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', ),
+		'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
 		'taxonomies'  => array( 'category' ),
 	]);
 }
@@ -58,3 +58,11 @@ function fill_custom_column ( $column, $post_id ) {
     }
 }
 add_action ( 'manage_careers_posts_custom_column', 'fill_custom_column', 10, 2 );
+
+//REMOVE WYSIWYG AND EXCERPT FROM CAREER POSTS
+add_action('init', 'init_remove_support',100);
+function init_remove_support(){
+    $post_type = 'careers';
+    remove_post_type_support( $post_type, 'editor');
+    remove_post_type_support( $post_type, 'excerpt' );
+}

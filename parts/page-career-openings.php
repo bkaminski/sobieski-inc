@@ -127,15 +127,14 @@
 								<div class="card-body p-0">
 									<p class="card-title text-center pt-2"><?php the_title(); ?></p>
 									<div class="card-text text-center">
-										<?php the_content(); ?>
-											
+										<a target="_blank" class="btn btn-success rounded-0 mb-3" href="<?php echo the_field('link_to_job_listing'); ?>">Apply Now</a>
 									</div>
 								</div>
 							</div>
 						</div>
 						<?php $i++; if($i != 0 && $i % 3 == 0) { ?>
 						</div>
-						<div class="clearfix"></div>
+						
 					<?php } ?>
 				<?php endwhile; } wp_reset_query(); ?>
 		</div>
@@ -163,15 +162,14 @@
 								<div class="card-body p-0">
 									<p class="card-title text-center pt-2"><?php the_title(); ?></p>
 									<div class="card-text text-center">
-										<?php the_content(); ?>
-													
+										<a target="_blank" class="btn btn-success rounded-0 mb-3" href="<?php echo the_field('link_to_job_listing'); ?>">Apply Now</a>				
 									</div>
 								</div>
 							</div>
 						</div>
 						<?php $i++; if($i != 0 && $i % 3 == 0) { ?>
 						</div>
-						<div class="clearfix"></div>
+						
 					<?php } ?>
 				<?php endwhile; } wp_reset_query(); ?>
 			</div>
@@ -199,15 +197,14 @@
 									<div class="card-body p-0">
 										<p class="card-title text-center pt-2"><?php the_title(); ?></p>
 										<div class="card-text text-center">
-											<?php the_content(); ?>
-													
+											<a target="_blank" class="btn btn-success rounded-0 mb-3" href="<?php echo the_field('link_to_job_listing'); ?>">Apply Now</a>
 										</div>
 									</div>
 								</div>
 							</div>
 							<?php $i++; if($i != 0 && $i % 3 == 0) { ?>
 							</div>
-							<div class="clearfix"></div>
+							
 						<?php } ?>
 					<?php endwhile; } wp_reset_query(); ?>
 			</div>
@@ -235,15 +232,14 @@
 									<div class="card-body p-0">
 										<p class="card-title text-center pt-2"><?php the_title(); ?></p>
 										<div class="card-text text-center">
-											<?php the_content(); ?>
-												
+											<a target="_blank" class="btn btn-success rounded-0 mb-3" href="<?php echo the_field('link_to_job_listing'); ?>">Apply Now</a>
 										</div>
 									</div>
 								</div>
 							</div>
 							<?php $i++; if($i != 0 && $i % 3 == 0) { ?>
 							</div>
-							<div class="clearfix"></div>
+							
 						<?php } ?>
 					<?php endwhile; } wp_reset_query(); ?>
 			</div>
@@ -271,15 +267,14 @@
 									<div class="card-body p-0">
 										<p class="card-title text-center pt-2"><?php the_title(); ?></p>
 										<div class="card-text text-center">
-											<?php the_content(); ?>
-												
+											<a target="_blank" class="btn btn-success rounded-0 mb-3" href="<?php echo the_field('link_to_job_listing'); ?>">Apply Now</a>
 										</div>
 									</div>
 								</div>
 							</div>
 							<?php $i++; if($i != 0 && $i % 3 == 0) { ?>
 							</div>
-							<div class="clearfix"></div>
+							
 						<?php } ?>
 					<?php endwhile; } wp_reset_query(); ?>
 			</div>
@@ -308,15 +303,14 @@
 									<div class="card-body p-0">
 										<p class="card-title text-center pt-2"><?php the_title(); ?></p>
 										<div class="card-text text-center">
-											<?php the_content(); ?>
-												
+											<a target="_blank" class="btn btn-success rounded-0 mb-3" href="<?php echo the_field('link_to_job_listing'); ?>">Apply Now</a>
 										</div>
 									</div>
 								</div>
 							</div>
 							<?php $i++; if($i != 0 && $i % 3 == 0) { ?>
 							</div>
-							<div class="clearfix"></div>
+							
 						<?php } ?>
 					<?php endwhile; } wp_reset_query(); ?>
 			</div>
@@ -344,15 +338,14 @@
 									<div class="card-body p-0">
 										<p class="card-title text-center pt-2"><?php the_title(); ?></p>
 										<div class="card-text text-center">
-											<?php the_content(); ?>
-												
+											<a target="_blank" class="btn btn-success rounded-0 mb-3" href="<?php echo the_field('link_to_job_listing'); ?>">Apply Now</a>
 										</div>
 									</div>
 								</div>
 							</div>
 							<?php $i++; if($i != 0 && $i % 3 == 0) { ?>
 							</div>
-							<div class="clearfix"></div>
+							
 						<?php } ?>
 					<?php endwhile; } wp_reset_query(); ?>
 			</div>
@@ -380,15 +373,14 @@
 									<div class="card-body p-0">
 										<p class="card-title text-center pt-2"><?php the_title(); ?></p>
 										<div class="card-text text-center">
-											<?php the_content(); ?>
-												
+											<a target="_blank" class="btn btn-success rounded-0 mb-3" href="<?php echo the_field('link_to_job_listing'); ?>">Apply Now</a>
 										</div>
 									</div>
 								</div>
 							</div>
 							<?php $i++; if($i != 0 && $i % 3 == 0) { ?>
 							</div>
-							<div class="clearfix"></div>
+							
 						<?php } ?>
 					<?php endwhile; } wp_reset_query(); ?>
 			</div>

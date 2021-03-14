@@ -10,7 +10,7 @@
 			<button class="btn btn-lg btn-outline-sobieski-red rounded-0 mb-2 mt-3 p-3 schedule-btn-md" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg" style="vertical-align:middle;"></i> Schedule Service Online</button>
 		</div>
 	</div>
-	<div class="mt-5 pb-5">
+	<div class="mt-5 pb-4">
 		<div class="container">	
 			<div class="text-center">
 				<div class="alert alert-info h3 rounded-0 text-uppercase font-weight-bold">
@@ -23,25 +23,23 @@
 				<?php the_content(); ?>
 
 			</div>
-			<!-- <div class="text-center">
-				<a href="">
-					<img src="<?php //the_field('spp_graphic'); ?>" class="img-fluid mb-4" alt="<?php //the_field('spp_graphic_alt'); ?>" />
-				</a>
-			</div> -->
-			<div class="container">
-				<div style="background-image:url('<?php the_field('spp_header_image'); ?>');background-repeat:no-repeat;background-size:cover;background-position: top center;">
-					<?php the_field('spp_copy_text'); ?>
+			
+				<div style="background-image:url('<?php the_field('spp_header_image'); ?>');background-repeat:no-repeat;background-size:cover;background-position: top center;min-height:80px;">
+					
 				</div>
-			</div>
-			<div class="text-center">
-				<a href="service-partner-plans" class="btn btn-lg btn-outline-sobieski rounded-0 mb-4 text-uppercase">Learn More About Service Partner Plans</a>
-			</div>
-			<div class="alert alert-success h3 rounded-0 text-center text-uppercase font-weight-bold">
+				<?php the_field('spp_copy_text'); ?>
+
+				<div class="text-center">
+					<a href="service-partner-plans" class="btn btn-lg btn-outline-sobieski rounded-0 mb-4 text-uppercase">Learn More About Service Partner Plans</a>
+				</div>
+				<div class="mb-5" style="background-image:url('<?php the_field('spp_footer_image'); ?>');background-repeat:no-repeat;background-size:cover;background-position: bottom center;min-height:80px;"></div>
+				<div class="alert alert-success h3 rounded-0 text-center text-uppercase font-weight-bold">
 				Call Us Today: <?php the_field('neighborhood_phone_number') ;?>
 					
-			</div>
-			<?php endwhile; else : ?>
-			<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
-			<?php endif; ?>
+				</div>
 		</div>
+		<?php endwhile; else : ?>
+			<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+		<?php endif; ?>
 	</div>
+	

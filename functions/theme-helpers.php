@@ -80,6 +80,7 @@ function tags_support_query($wp_query)
 //TAG HOOKS
 add_action('init', 'tags_support_all');
 add_action('pre_get_posts', 'tags_support_query');
+
 // REMOVE WP VERSION PARAM FROM ENQUEUED SCRIPTS AND CSS
 function vc_remove_wp_ver_css_js( $src ) {
     if ( strpos( $src, 'ver=' ) )
@@ -88,6 +89,7 @@ function vc_remove_wp_ver_css_js( $src ) {
 }
 add_filter( 'style_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
 add_filter( 'script_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
+
 //BEGIN READ MORE BUTTON ON TAGS AND BLOG
 function excerpt_read_more_link($output)
 {
@@ -95,20 +97,19 @@ function excerpt_read_more_link($output)
     return $output . '<a class="btn excerpt-button btn-outline-sobieski text-uppercase rounded-0" href="' . get_permalink() . '">Read More <i class="fas fa-angle-double-right fa-fw fa-lg"></i></a>';
 }
 add_filter('the_excerpt', 'excerpt_read_more_link');
+
 //REMOVE COMMENTS FEED RSS
 add_filter( 'feed_links_show_comments_feed', '__return_false' );
 
 //REMOVE WP VERSION FROM CODE
-function intSound_remove_version() {
+function sobieski_remove_version() {
 return '';
 }
-add_filter('the_generator', 'intSound_remove_version');
+add_filter('the_generator', 'sobieski_remove_version');
+
 //REMOVE YOAST SEO COMMENTS
-if (defined('WPSEO_VERSION')) {
- add_action('wp_head',function() { ob_start(function($o) {
- return preg_replace('/^\n?<!--.*?[Y]oast.*?-->\n?$/mi','',$o);
- }); },~PHP_INT_MAX);
-}
+add_filter( 'wpseo_debug_markers', '__return_false' );
+
 //AUTO UPDATE PLUGINS
 add_filter( 'auto_update_plugin', '__return_true' );
 
@@ -232,7 +233,6 @@ add_filter( 'wp_mail_from', 'sobieski_mail_from' );
     }
      
     add_filter('page_row_actions', 'rd_duplicate_post_link', 10, 2);
-
 
 
 

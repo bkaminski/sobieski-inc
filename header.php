@@ -68,9 +68,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<?php if ( is_front_page() ) {
 		echo get_template_part( 'parts/page', 'nav' );
 	} elseif ( is_home () ) {
-		echo get_template_part ('parts/page', 'nav');
+		echo get_template_part ('parts/page', 'homeowner-nav');
 	} elseif (is_single() ) {
-		echo get_template_part ('parts/page', 'nav');
+		echo get_template_part ('parts/page', 'homeowner-nav');
 	} elseif ( is_page ( array( 
 		'commercial',
 		'commercial-maintenance-0',
@@ -119,10 +119,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		'custom-homes',
 		'geothermal-heating-cooling',
 		'boilers',
+		'goodman',
+		'lennox',
+		'goodman-iaq-systems',
+		'lennox-iaq-systems',
 		'turn-your-comfort-wi-fi-thermostat',
 		'plumbing-drain-services',
 		'plumbing-installations-replacements',
 		'back-sump-pump',
+		'bradfordwhite',
 		'sewer-drain-service-repair',
 		'sewer-drain-installation-and-replacements',
 		'water-heaters',
@@ -211,10 +216,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		'service-partner-plans-middle-creek-preserve',
 		'service-partner-plans-ocean-meadows',
 		'service-partner-plans-rockford-falls',
-		'service-partner-plans-saddleridge'
-
+		'service-partner-plans-saddleridge',
+		'test-neighborhood',
 	) ) ) {
 		echo get_template_part ('parts/page', 'new-home-nav');
+
 	} else {
+
+
+
 		echo get_template_part( 'parts/page', 'nav' );
 	}?>
+	
