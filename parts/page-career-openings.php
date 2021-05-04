@@ -29,11 +29,11 @@
 			<div class="col">
 				<div class="card h-100 career-card">
 					<div class="card-header career-header">
-						<a class="career-link text-white executiveCareer">Executive</a>
+						<a class="career-link text-white virginiaCareer">Virginia</a>
 					</div>
 					<div class="card-body career-highlight d-none d-md-block">
-						<a class="executiveCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/executive_nobanner.png' ) . '" class="img-fluid" alt="Graphic of person in business suit">'; ?>
+						<a class="virginiaCareer">
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2021/04/virginia-icon.png' ) . '" class="img-fluid pt-3" alt="Graphic of state of Virginia">'; ?>
 						</a>
 					</div>
 				</div>
@@ -65,10 +65,10 @@
 			<div class="col">
 				<div class="card h-100 career-card">
 					<div class="card-header career-header">
-						<a class="career-link text-white phillyCareer">Philadelphia</a>
+						<a class="career-link text-white allentownCareer">Allentown</a>
 					</div>
 					<div class="card-body career-highlight d-none d-md-block">
-						<a class="phillyCareer">
+						<a class="allentownCareer">
 							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/08/philadelphia_nobanner.png' ) . '" class="img-fluid" alt="Graphic of state of Pennsylvania with a pin on Philadelphia">'; ?>
 						</a>
 					</div>
@@ -175,14 +175,14 @@
 			</div>
 		</div>
 	
-		<!-- Executive -->
+		<!-- Virginia -->
 		<div class="container-fluid">
-			<div class="career-executive">
-				<h4 class="text-center text-uppercase">Executive</h4>
+			<div class="career-virginia">
+				<h4 class="text-center text-uppercase">Virginia</h4>
 				<?php $args=array(
 					'post_type' => 'careers',
 					'posts_per_page' => 20,
-					'category_name' => 'executive',
+					'category_name' => 'virginia',
 				);
 				$my_query = null;
 				$my_query = new WP_Query($args);
@@ -283,12 +283,12 @@
 
 		<!-- Philadelphia -->
 		<div class="container-fluid">
-			<div class="career-philadelphia">
-				<h4 class="text-center text-uppercase">Philadelphia</h4>
+			<div class="career-allentown">
+				<h4 class="text-center text-uppercase">Allentown</h4>
 				<?php $args=array(
 					'post_type' => 'careers',
 					'posts_per_page' => 20,
-					'category_name' => 'philadelphia',
+					'category_name' => 'allentown',
 				);
 				$my_query = null;
 				$my_query = new WP_Query($args);
