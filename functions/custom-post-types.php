@@ -13,6 +13,10 @@ function fontawesome_icon_dashboard() {
    			font-family: Fontawesome !important;
    			content: '\\f022';
      	}
+      #adminmenu .menu-icon-promotions div.wp-menu-image:before {
+        font-family: Fontawesome !important;
+        content: '\\f53d';
+      }
      	</style>";
 }
 add_action('admin_head', 'fontawesome_icon_dashboard');
@@ -63,6 +67,21 @@ add_action ( 'manage_careers_posts_custom_column', 'fill_custom_column', 10, 2 )
 add_action('init', 'init_remove_support',100);
 function init_remove_support(){
     $post_type = 'careers';
+    $post_type = 'promotions';
     remove_post_type_support( $post_type, 'editor');
     remove_post_type_support( $post_type, 'excerpt' );
+}
+
+
+// ================================================================================================ //
+
+add_action('init', 'register_promotions_cpt');
+function register_promotions_cpt() {
+  register_post_type('promotions', [
+    'label' => 'Promotions',
+    'public' => true, 
+    'capability_type' => 'post',
+    'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
+    'taxonomies'  => array( 'category' ),
+  ]);
 }

@@ -43,6 +43,63 @@
 	background-size: cover;
 	background-position: top center;
 }
+/* ======================== NEW PROMO PAGE ===============================*/
+.promo-hero {
+	display: block;
+	min-height: 500px;
+	width: 100%;
+	background: #222;
+	background-image: url('../../../../uploads/2021/05/header-image.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.promotions-content {
+	display: block;
+	width: 100%;
+	min-height: 1000px;
+}
+.hvac-container {
+	background: rgb(255,255,255);
+	background: linear-gradient(97deg, rgba(255,255,255,1) 7%, rgba(220,224,234,1) 79%, rgba(188,202,221,1) 96%, rgba(176,193,216,1) 100%);
+}
+/* A wrapper for your images to transition */
+.transition-wrapper {
+  position:relative;
+  display: block;
+  height: 177px;
+  cursor: pointer;
+}
+
+/* Position each image and apply a transition */
+.transition-wrapper img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+}
+
+/* Automatically hide an image during hover (to reveal the other one) */
+.transition-wrapper img:last-of-type:hover {
+  opacity:0;
+}
+.weekly-specials {
+	width: 100%;
+	min-height: 300px;
+}
+.blue-text {
+	color: #1F508B;
+}
+.red-text {
+	color: #B6332C;
+}
+
+
+
+/* ======================== END NEW PROMO PAGE ===============================*/
+
 .homeowner-content {
 	width: 100%;
 	min-height: 350px;

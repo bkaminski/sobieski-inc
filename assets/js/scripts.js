@@ -115,6 +115,11 @@ $("#careerLink").click(function() {
 })( jQuery );
 
 (function( $ ) {
+    
+
+   
+})( jQuery );
+(function( $ ) {
 	$( document ).ready(function() {
 
 	// RESPONSIVE CONTROLS

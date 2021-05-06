@@ -27,6 +27,18 @@
     padding-right: .3rem;
     padding-left: .3rem;
 }
+.btn-sobieski-red {
+  background: #CE292F;
+  color: #fff;
+  border-color: #B6332C;
+  padding: 0.5rem;
+  transition: 0.4s ease-in-out;
+  &:hover {
+    color: #fff;
+    background: #B6332C;
+    transition: 0.4s ease-in-out;
+  }
+}
 .btn-outline-sobieski-red {
   color: #af2525;
   border-color: #af2525;
@@ -84,4 +96,8 @@
       flex: 0 0 12.5%;
       max-width: 12.5%;
     }
+}
+.promo-card > .card {
+  border: 0px solid rgba(0,0,0,.125);
+  background-color: transparent;
 }

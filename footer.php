@@ -19,5 +19,11 @@
 <?php } ?>
 <?php wp_footer(); ?>
 
+<?php if ( is_page(8813) ) {
+ 	echo get_template_part('parts/page', 'promo-modals'); 
+ } else {
+ 	//nothing
+ } ?>
+ 
 </body>
 </html>

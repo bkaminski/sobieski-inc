@@ -59,6 +59,19 @@ function remove_careers_from_search() {
 	}
 }
 
+//ACF OPTIONS PAGE
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page(array(
+        'page_title'    => 'DMI Theme Settings',
+        'menu_title'    => 'DMI Theme Settings',
+        'menu_slug'     => 'dmi-theme-settings',
+        'capability'    => 'edit_posts',
+        'redirect'      => false
+    ));
+    
+}
+
 //REMOVE THE TYPE ATTRIBUTE FROM JAVASCRIPT FILES
 add_action('wp_loaded', 'prefix_output_buffer_start');
 function prefix_output_buffer_start() { 
