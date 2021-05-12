@@ -1,7 +1,7 @@
 <div class="promotions-content">
 	<div class="container-fluid pt-2 pl-0 pr-0">
 		<!-- Plumbing -->
-		<div class="container pt-5 pb-5 plumb-container">
+		<div class="container pt-3 pb-3 plumb-container">
 			<h5 class="text-uppercase">Plumbing</h5>
 			<?php $args=array(
 				'post_type' => 'promotions',
@@ -22,8 +22,8 @@
 							<div class="card">
 								<div class="card-body p-0">
 									<a data-target="#<?php echo the_field('coupon_unique_identifier'); ?>" data-toggle="modal" class="transition-wrapper">
-										<img src="<?php echo the_field('coupon_image_hover'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt'); ?>" />
-										<img src="<?php echo the_field('coupon_image'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt'); ?>" />
+										<img src="<?php echo the_field('coupon_image_hover'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt_text'); ?>" />
+										<img src="<?php echo the_field('coupon_image'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt_text'); ?>" />
 									</a>
 								</div>
 							</div>
@@ -34,9 +34,9 @@
 				<?php endwhile; } wp_reset_query(); ?>
 		</div>
 		<!-- HVAC -->
-		<div class="container-fluid pt-5 pb-3 hvac-container pb-5">
+		<div class="container-fluid pt-3 hvac-container pb-3">
 			<div class="container">
-				<h5 class="text-uppercase">HVAC</h5>
+				<h5 class="text-uppercase"><i class="fal fa-air-conditioner"></i> HVAC</h5>
 				<?php $args=array(
 					'post_type' => 'promotions',
 					'posts_per_page' => 4,
@@ -56,8 +56,8 @@
 								<div class="card h-100">
 									<div class="card-body p-0">
 										<a data-target="#<?php echo the_field('coupon_unique_identifier'); ?>" data-toggle="modal" class="transition-wrapper">
-											<img src="<?php echo the_field('coupon_image_hover'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt'); ?>" />
-											<img src="<?php echo the_field('coupon_image'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt'); ?>" />
+											<img src="<?php echo the_field('coupon_image_hover'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt_text'); ?>" />
+											<img src="<?php echo the_field('coupon_image'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt_text'); ?>" />
 										</a>
 									</div>
 								</div>
@@ -69,8 +69,8 @@
 			</div>
 		</div>
 		<!-- INDOOR AIR QUALITY -->
-		<div class="container-fluid pt-5 plumb-container pl-0 pr-0">
-			<div class="container pb-5">
+		<div class="container-fluid pt-3 plumb-container pl-0 pr-0">
+			<div class="container pb-3">
 				<h5 class="text-uppercase">Indoor Air Quality</h5>
 				<?php $args=array(
 					'post_type' => 'promotions',
@@ -92,7 +92,7 @@
 									<div class="card-body p-0">
 										<a data-target="#<?php echo the_field('coupon_unique_identifier'); ?>" data-toggle="modal" class="transition-wrapper">
 											<img src="<?php echo the_field('coupon_image_hover'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt'); ?>" />
-											<img src="<?php echo the_field('coupon_image'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt'); ?>" />
+											<img src="<?php echo the_field('coupon_image'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt_text'); ?>" />
 										</a>
 									</div>
 								</div>
@@ -104,8 +104,8 @@
 			</div>
 		</div>
 		<!-- WARRANTY -->
-		<div class="container-fluid pt-5 pb-3 hvac-container">
-			<div class="container pb-5">
+		<div class="container-fluid pt-3 pb-1 hvac-container">
+			<div class="container pb-3">
 				<h5 class="text-uppercase">Warranty</h5>
 				<?php $args=array(
 					'post_type' => 'promotions',
@@ -127,7 +127,7 @@
 									<div class="card-body p-0">
 										<a data-target="#<?php echo the_field('coupon_unique_identifier'); ?>" data-toggle="modal" class="transition-wrapper">
 											<img src="<?php echo the_field('coupon_image_hover'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt'); ?>" />
-											<img src="<?php echo the_field('coupon_image'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt'); ?>" />
+											<img src="<?php echo the_field('coupon_image'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_alt_text'); ?>" />
 										</a>
 									</div>
 								</div>
