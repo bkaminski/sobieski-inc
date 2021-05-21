@@ -222,9 +222,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		echo get_template_part ('parts/page', 'new-home-nav');
 
 	} else {
-
-
-
 		echo get_template_part( 'parts/page', 'nav' );
 	}?>
 	

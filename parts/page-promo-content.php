@@ -2,7 +2,7 @@
 	<div class="container-fluid pt-2 pl-0 pr-0">
 		<!-- Plumbing -->
 		<div class="container pt-3 pb-3 plumb-container">
-			<h5 class="text-uppercase">Plumbing</h5>
+			<h5 class="text-uppercase h3 pb-4"><i class="fal fa-faucet-drip fa-lg fa-fv"></i> Plumbing</h5>
 			<?php $args=array(
 				'post_type' => 'promotions',
 				'posts_per_page' => 4,
@@ -36,7 +36,7 @@
 		<!-- HVAC -->
 		<div class="container-fluid pt-3 hvac-container pb-3">
 			<div class="container">
-				<h5 class="text-uppercase"><i class="fal fa-air-conditioner"></i> HVAC</h5>
+				<h5 class="text-uppercase h3 pb-4"><i class="fal fa-air-conditioner fa-lg fa-fw"></i> HVAC</h5>
 				<?php $args=array(
 					'post_type' => 'promotions',
 					'posts_per_page' => 4,
@@ -71,7 +71,7 @@
 		<!-- INDOOR AIR QUALITY -->
 		<div class="container-fluid pt-3 plumb-container pl-0 pr-0">
 			<div class="container pb-3">
-				<h5 class="text-uppercase">Indoor Air Quality</h5>
+				<h5 class="text-uppercase h3 pb-4"><i class="fas fa-wind fa-lg fa-fw"></i> Indoor Air Quality</h5>
 				<?php $args=array(
 					'post_type' => 'promotions',
 					'posts_per_page' => 4,
@@ -106,7 +106,7 @@
 		<!-- WARRANTY -->
 		<div class="container-fluid pt-3 pb-1 hvac-container">
 			<div class="container pb-3">
-				<h5 class="text-uppercase">Warranty</h5>
+				<h5 class="text-uppercase pb-4 h3"><i class="far fa-shield-check fa-lg fa-fw"></i> Warranty</h5>
 				<?php $args=array(
 					'post_type' => 'promotions',
 					'posts_per_page' => 4,

@@ -12,7 +12,7 @@ get_header(); ?>
 
 <?php echo get_template_part('parts/page', 'promo-content'); ?>
 
-<?php echo get_template_part('parts/page', 'weekly-specials'); ?>
+<?php echo get_template_part('parts/page', 'promo-weekly-specials'); ?>
 
 <?php echo get_template_part('parts/page', 'home-header' ); ?>
 
