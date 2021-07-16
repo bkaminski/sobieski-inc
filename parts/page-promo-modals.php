@@ -1,6 +1,6 @@
 <!-- START PLUMBING MODALS -->
 <div class="modal hide fade" id="p1" tabindex="-1" role="dialog" aria-labelledby="p1Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -31,7 +31,7 @@
 <!-- end modal 1 -->
 
 <div class="modal hide fade" id="p2" tabindex="-1" role="dialog" aria-labelledby="p2Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -62,7 +62,7 @@
 <!-- end modal 2 -->
 
 <div class="modal hide fade" id="p3" tabindex="-1" role="dialog" aria-labelledby="p3Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -93,7 +93,7 @@
 <!-- end modal 3 -->
 
 <div class="modal hide fade" id="p4" tabindex="-1" role="dialog" aria-labelledby="p4Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -125,7 +125,7 @@
 
 <!-- START HVAC MODALS -->
 <div class="modal hide fade" id="p5" tabindex="-1" role="dialog" aria-labelledby="p5Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -156,7 +156,7 @@
 <!-- end modal 1 -->
 
 <div class="modal hide fade" id="p6" tabindex="-1" role="dialog" aria-labelledby="p6Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -187,7 +187,7 @@
 <!-- end modal 2 -->
 
 <div class="modal hide fade" id="p7" tabindex="-1" role="dialog" aria-labelledby="p7Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -218,7 +218,7 @@
 <!-- end modal 3 -->
 
 <div class="modal hide fade" id="p8" tabindex="-1" role="dialog" aria-labelledby="p8Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -250,7 +250,7 @@
 
 <!-- START IAQ MODALS -->
 <div class="modal hide fade" id="p9" tabindex="-1" role="dialog" aria-labelledby="p9Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -281,7 +281,7 @@
 <!-- end modal 1 -->
 
 <div class="modal hide fade" id="p10" tabindex="-1" role="dialog" aria-labelledby="p10Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -312,7 +312,7 @@
 <!-- end modal 2 -->
 
 <div class="modal hide fade" id="p11" tabindex="-1" role="dialog" aria-labelledby="p11Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -343,7 +343,7 @@
 <!-- end modal 3 -->
 
 <div class="modal hide fade" id="p12" tabindex="-1" role="dialog" aria-labelledby="p12Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -375,7 +375,7 @@
 
 <!-- START WARRANTY MODALS -->
 <div class="modal hide fade" id="p13" tabindex="-1" role="dialog" aria-labelledby="p13Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -406,7 +406,7 @@
 <!-- end modal 1 -->
 
 <div class="modal hide fade" id="p14" tabindex="-1" role="dialog" aria-labelledby="p14Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -437,7 +437,7 @@
 <!-- end modal 2 -->
 
 <div class="modal hide fade" id="p15" tabindex="-1" role="dialog" aria-labelledby="p15Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -468,7 +468,7 @@
 <!-- end modal 3 -->
 
 <div class="modal hide fade" id="p16" tabindex="-1" role="dialog" aria-labelledby="p16Label" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-lg">
+	<div class="modal-dialog modal-lg">
 		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
 			<div class="modal-header promo-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">

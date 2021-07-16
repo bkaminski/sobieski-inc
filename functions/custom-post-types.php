@@ -85,3 +85,17 @@ function register_promotions_cpt() {
     'taxonomies'  => array( 'category' ),
   ]);
 }
+
+
+// ================================================================================================ //
+
+add_action('init', 'register_newsletter_cpt');
+function register_newsletter_cpt() {
+  register_post_type('newsletter', [
+    'label' => 'Newsletter',
+    'public' => true, 
+    'capability_type' => 'post',
+    'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
+    'taxonomies'  => array( 'category' ),
+  ]);
+}

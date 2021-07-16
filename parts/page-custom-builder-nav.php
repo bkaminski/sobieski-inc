@@ -30,12 +30,12 @@
 				)); ?>
 				<ul class="nav sub-nav">
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Home Builder Services</a>
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">Custom Home Builder Services</a>
 						<div class="dropdown-menu dropdown-menu-right">	
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service-category/home-builder-services">About Home Builder Services</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/pre-construction-services">Pre-Construction Services</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/construction-services">Construction Services</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/after-sale-support">After Sale Support</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/audience/the-sobieski-experience">The Sobieski Experience</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/audience/homeowner-projects">Homeowner Projects</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/audience/builder">Builder</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/audience/architect">Architect</a>
 						</div>
 					</li>
 				</ul>
@@ -48,7 +48,7 @@
 		</div>
 		<div class="col-lg-4 text-center">
 			<div class="phone-numbers">
-				<p class="h5 font-weight-bold">Home Builders: 866-957-7530</p>
+				<p class="h5 font-weight-bold">Custom Home Division: 302-897-2559</p>
 			</div>
 		</div>
 		<div class="col-lg-4">
@@ -64,7 +64,7 @@
 	<div class="row">
 		<div class="col-lg-6 text-center">
 			<div class="phone-numbers">
-				<p class="h5 font-weight-bold">Home Builders: 866-957-7530</p>
+				<p class="h5 font-weight-bold">Custom Home Division: 302-897-2559</p>
 			</div>
 		</div>
 		<div class="col-lg-6 text-center">

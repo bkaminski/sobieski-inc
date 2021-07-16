@@ -10,7 +10,7 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/page', 'home-builder-header' ); ?>
 
-<?php get_template_part( 'parts/page', 'basic-loop'); ?>
+<?php //get_template_part( 'parts/page', 'basic-loop'); ?>
 
 <?php get_template_part( 'parts/home', 'geo-map' ); ?>
 

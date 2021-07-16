@@ -33,7 +33,7 @@
 					</div>
 					<div class="card-body career-highlight d-none d-md-block">
 						<a class="virginiaCareer">
-							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2021/04/virginia-icon.png' ) . '" class="img-fluid pt-3" alt="Graphic of state of Virginia">'; ?>
+							<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2021/04/virginia-icon.png' ) . '" class="img-fluid" alt="Graphic of state of Virginia">'; ?>
 						</a>
 					</div>
 				</div>
@@ -175,7 +175,7 @@
 			</div>
 		</div>
 	
-		<!-- Virginia -->
+		<!-- Executive -->
 		<div class="container-fluid">
 			<div class="career-virginia">
 				<h4 class="text-center text-uppercase">Virginia</h4>

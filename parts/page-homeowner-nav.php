@@ -25,10 +25,6 @@
     "autoOpenDelay":30
   });
 </script>
-
-<div class="statement text-center">
-	<p class="font-weight-bold"><span class="essential">AN ESSENTIAL SERVICE PROVIDER.</span> Read our <a href="<?php echo get_home_url(); ?>/coronavirus-statement"><u class="text-dark">Statement</u></a> on Coronavirus</p>
-</div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="logo-wrapper">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
@@ -71,9 +67,8 @@
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/lennox">Lennox Partner Information</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/goodman">Goodman Partner Information</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/ac-installation-replacement">AC Installation &amp; Replacement</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-cooling-pro-check">Heating &amp; Cooling Pro Check</a>
+							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/heating-cooling-tune-up">Heating &amp; Cooling Tune Up</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans">Service Partner Plans</a>
-							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/custom-homes">Custom Homes</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/geothermal-heating-cooling">Geothermal</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/boilers">Boilers</a>
 							<a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/turn-your-comfort-wi-fi-thermostat">Turn Up Your Comfort with a WiFi Thermostat</a>

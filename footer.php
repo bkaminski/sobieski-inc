@@ -19,7 +19,7 @@
 <?php } ?>
 <?php wp_footer(); ?>
 
-<?php if ( is_page(8813) ) {
+<?php if ( is_page(10238) ) {
  	echo get_template_part('parts/page', 'promo-modals'); 
  } else {
  	//nothing

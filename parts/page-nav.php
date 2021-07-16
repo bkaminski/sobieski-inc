@@ -1,6 +1,3 @@
-<div class="statement text-center">
-	<p class="font-weight-bold"><span class="essential">AN ESSENTIAL SERVICE PROVIDER.</span> Read our <a href="<?php echo get_home_url(); ?>/coronavirus-statement"><u class="text-dark">Statement</u></a> on Coronavirus</p>
-</div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="logo-wrapper">
 		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
@@ -51,11 +48,15 @@
 			</div>
 		</div>
 		<div class="col-lg-4">
+			<?php if ( is_page(10238) ) {
+				echo(''); 
+			} else {  ?>
 			<div class="btn-group btn-group-sm float-right" role="group" aria-label="Sub-nav Options">
   				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
   				<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-hammer"></i> Home Builders</a>
   				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
   			</div>
+  		<?php } ?>
 		</div>
 	</div>
 </div>
@@ -67,11 +68,15 @@
 			</div>
 		</div>
 		<div class="col-lg-6 text-center">
+			<?php if ( is_page(10238) ) {
+				echo(''); 
+			} else {  ?>
 			<div class="btn-group btn-group-sm" role="group" aria-label="Sub-nav Options">
   				<a href="<?php echo get_home_url(); ?>/commercial" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-truck"></i> Commercial</a>
   				<a href="<?php echo get_home_url(); ?>/audience/home-builders" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-hammer"></i> Home Builders</a>
   				<a href="<?php echo get_home_url(); ?>/homeowner" class="btn btn-outline-sobieski rounded-0"><i class="fas fa-home"></i> Homeowner</a>
   			</div>
+  			<?php } ?>
 		</div>
 	</div>
 </div>

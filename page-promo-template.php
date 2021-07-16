@@ -14,8 +14,6 @@ get_header(); ?>
 
 <?php echo get_template_part('parts/page', 'promo-weekly-specials'); ?>
 
-<?php echo get_template_part('parts/page', 'home-header' ); ?>
-
 <?php echo get_template_part('parts/page', 'promo-contact'); ?>
 
 <?php get_footer(); ?>

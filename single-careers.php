@@ -1,7 +1,7 @@
 <?php get_header(); 
 /*
  * Template Name: Single Career Post Page
- * Template Post Type: post, page, career
+ * Template Post Type: career
  */
 
 ?>

@@ -6,10 +6,10 @@
 				<p class="h4 blue-text">HVAC &amp; Plumbing Solutions</p>
 			</div>
 			<div class="col-md-6 pt-5">
-				<p class="specials--col1 text-right blue-text pt-3 pr-2 font-weight-bold">Downloads</p>
+				<p class="specials--col1 text-right blue-text pt-3 pr-2 font-weight-bold">See Our Specials Here:</p>
 				<p class="specials--col2 text-uppercase red-text h4 text-right font-weight-bold mt-2 ml-4">
-					<a href="#" class="specials--col3 red-text mr-4">Plumbing <i class="fas fa-arrow-circle-down fa-fw fa-lg down--arrow"></i></a> 
-					<a href="#" class="specials--col4 red-text">HVAC <i class="fas fa-arrow-circle-down fa-fw fa-lg down--arrow"></i></a>
+					<a href="https://www.sobieskiinc.com/plumbing-weekly-specials/" class="specials--col3 red-text mr-4">Plumbing <i class="fas fa-chevron-circle-right fa-fw fa-lg down--arrow"></i></a> 
+					<a href="https://www.sobieskiinc.com/hvac-weekly-specials/" class="specials--col4 red-text">HVAC <i class="fas fa-chevron-circle-right fa-fw fa-lg down--arrow"></i></a>
 				</p>
 			</div>
 		</div>

@@ -100,13 +100,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	) ) ) {
 		echo get_template_part ('parts/page', 'commercial-nav');
 	} elseif ( is_page ( array(
-		'home-builders',
 		'home-builder-services',
+		'about-regional-and-national-homebuilders',
 		'pre-construction-services',
 		'construction-services',
 		'after-sale-support',
 	) ) ) {
 		echo get_template_part ('parts/page', 'home-builder-nav');
+	} elseif ( is_page ( array(
+		'the-sobieski-experience',
+		'homeowner-projects',
+		'architect',
+		'builder',
+	) ) ) {
+		echo get_template_part ('parts/page', 'custom-builder-nav');
 	} elseif ( is_page ( array( 
 		'homeowner',
 		'heating-air-conditioning',
@@ -120,6 +127,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		'geothermal-heating-cooling',
 		'boilers',
 		'goodman',
+		'ac-tune-ups-starting-79',
 		'lennox',
 		'goodman-iaq-systems',
 		'lennox-iaq-systems',
@@ -222,6 +230,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		echo get_template_part ('parts/page', 'new-home-nav');
 
 	} else {
+
+
+
 		echo get_template_part( 'parts/page', 'nav' );
 	}?>
 	
