@@ -1,3 +1,6 @@
+<?php if (is_page('home-page-2021')) {
+	get_template_part( 'parts/page', '2021-footer' );
+} else { ?>
 <footer class="footer">
 <a href="#" id="scroll" style="display: none;"><span></span></a>
 	<div class="container">
@@ -9,6 +12,7 @@
 
 	</div>
 </footer>
+<?php } ?>
 <?php get_template_part( 'parts/page', 'search-modal' ); ?>
 
 <?php if ( is_front_page() ) { 

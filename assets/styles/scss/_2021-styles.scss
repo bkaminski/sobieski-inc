@@ -1,0 +1,125 @@
+.logo-img-2021 {
+	position: absolute;
+	margin-top: -8px;
+}
+.bg-sobieski {
+	background: rgba(255, 255, 255, 0.80);
+}
+.sobieski-hero {
+	width: 100%;
+	height: 800px;
+	background: lightblue;
+	background-image: url('../../../../uploads/2020/06/sobieski-hero-bg.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-top: -57px;
+	//opacity: 0.75;
+}
+.nav-item-2021 {
+	padding-right: 1.3rem;
+	font-weight: bold;
+}
+.nav-item-2021 a {
+	color: #1F508B;
+}
+.call-us {
+	position: absolute;
+	right: 0;
+	background: #1F508B;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	border: 2px solid #1F508B;
+}
+.promo-cta {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 2rem;
+	width: 100%;
+	min-height: 120px;
+	background: rgba(31, 80, 139, 0.75);
+	text-align: right;
+	padding-right: 10rem;
+	z-index: 0;
+}
+.tech-img {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	padding-top: 100px;
+}
+.text-shadow {
+	text-shadow: 4px 2px #000;
+}
+.hero-heading {
+	position: absolute;
+	right: 0;
+	margin-top: 12rem;
+	margin-right: 12rem;
+}
+.home-cta-btn {
+	margin-left: 15rem;
+}
+.sobieski-home-services {
+	width: 100%;
+	min-height: 675px;
+	position: relative;
+}
+.service-bg-img {
+	width: 100%;
+	height: 500px;
+	background-image: url('../../../../uploads/2020/06/sobieski-tech-replacement.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 15% 25%;
+}
+.sobieski-reviews {
+	width: 100%;
+	min-height: 300px;
+	position: relative;
+}
+.van-area {
+	width: 100%;
+	min-height: 500px;
+	position: relative;
+}
+.red-bar {
+	background: #af2525;
+	width: 100%;
+	height: 250px;
+}
+.sobi-truck {
+	position: absolute;
+	right: 0;
+	margin-top: -100px;
+}
+.work-for-us {
+	width: 100%;
+	border-top: 6px solid #1F508B;
+	min-height: 150px;
+}
+.footer-2021 {
+	width: 100%;
+	min-height: 800px;
+	position: relative;
+}
+.footer-bg {
+	width: 100%;
+	min-height: 400px;
+	background-image: url('../../../../uploads/2020/06/footer-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.foot-logo {
+	margin-top: -55px;
+}
+.foot-services {
+	background: rgb(40,40,45);
+	background: linear-gradient(180deg, rgba(40,40,45,1) 0%, rgba(31,80,139,1) 14%, rgba(31,80,139,1) 97%);
+	width: 100%;
+	min-height: 400px;
+}

@@ -229,9 +229,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	) ) ) {
 		echo get_template_part ('parts/page', 'new-home-nav');
 
+	} elseif ( is_page ('home-page-2021') ) {
+		
+
 	} else {
-
-
 
 		echo get_template_part( 'parts/page', 'nav' );
 	}?>
