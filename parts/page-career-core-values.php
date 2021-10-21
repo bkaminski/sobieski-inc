@@ -28,3 +28,11 @@
 		</div>
 	</div>
 </div>
+<div class="container">
+	<div class="row pt-5">
+		<div class="col-lg-12 text-center">
+			<img src="https://www.sobieskiinc.com/wp-content/uploads/2021/10/ArmyLogo.png" alt="US Army Logo" class="img-fluid" />
+			<p class="text-center font-weight-bold">Sobieski is proud to partner with the Army PaYs program. This Program provides America’s youth with an opportunity to serve their country while they prepare for their future. Once soldiers have finished their military duties, we will guarantee candidates an interview and possible employment after the Army.</p>
+		</div>
+	</div>
+</div>

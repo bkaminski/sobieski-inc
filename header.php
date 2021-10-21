@@ -115,7 +115,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	) ) ) {
 		echo get_template_part ('parts/page', 'custom-builder-nav');
 	} elseif ( is_page ( array( 
-		'homeowner',
 		'heating-air-conditioning',
 		'heating-repairs',
 		'heating-installation-replacement',
@@ -199,10 +198,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		'service-partner-plans-abbots-pond',
 		'service-partner-plans-baston-creek',
 		'service-partner-plans-darley-green',
+		'exclusive-offer-for-heritage-park',
 		'service-partner-plans-oakwood',
+		'exclusive-offer-for-the-legends-at-frog-hollow',
 		'service-partner-plans-river-crest',
 		'service-partner-plans-silver-woods',
 		'service-partner-plans-stone-brooke',
+		'exclusive-offer-for-mendenhall-village',
 		'service-partner-plans-whitehall',
 		'welcome-your-new-home-ravenglass-lynemore-tweedsmere',
 		'service-partner-plans-independence',
@@ -229,7 +231,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	) ) ) {
 		echo get_template_part ('parts/page', 'new-home-nav');
 
-	} elseif ( is_page ('home-page-2021') ) {
+	} elseif ( is_page ('homeowner') ) {
 		
 
 	} else {

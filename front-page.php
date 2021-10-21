@@ -6,8 +6,6 @@
 
 <?php get_template_part( 'parts/home', 'who-we-are' ); ?>
 
-<?php get_template_part( 'parts/page', 'contact-us' ); ?>
-
 <?php get_template_part( 'parts/home', 'geo-map' ); ?>
 
 <?php get_template_part( 'parts/page', 'affiliates' ); ?>

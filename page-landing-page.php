@@ -1,3 +1,10 @@
+<?php
+/*
+ * Template Name: Landing Page
+ * 
+ */
+  
+get_header();  ?>
 <script src="https://webchat.scheduleengine.net/webchat-v1.js"></script>
 <script>
   WebChat.loadChat({
@@ -25,7 +32,19 @@
     "autoOpenDelay":30
   });
 </script>
-<section class="promo-hero pt-5">
-	<div class="container-fluid text-center">
-		<h1 class="text-white text-uppercase main-heading-h1" style="padding-top: 8rem;">Homeowner Promotions</h1>
-</section>
+	<div class="container pt-5 pb-5">
+		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+		<picture>
+			<?php the_post_thumbnail( 'full', array( 'itemprop' => 'image' ) ); ?>
+				
+		</picture>
+		<div>
+		<?php the_content(); ?>
+		
+		<?php endwhile; else : ?>
+			<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
+		<?php endif; ?>
+	</div>
+	</div>
+  
+<?php get_footer(); ?>

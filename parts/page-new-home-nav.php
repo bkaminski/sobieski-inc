@@ -81,12 +81,16 @@
 											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-coastal-club">Coastal Club</a></li>
 											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-darley-green">Darley Green</a></li>
 											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-fox-haven">Fox Haven</a></li>
+											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/exclusive-offer-for-the-legends-at-frog-hollow">Frog Hollow</a></li>
 											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-governors">Governors</a></li>
 											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-harbor-point">Harbor Point</a></li>
 										</ul>
 									</div>
 									<div class="col-sm-4">
 			            				<ul class="multi-column-dropdown">
+
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/exclusive-offer-for-heritage-park">Heritage Park</a></li>
+
 			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-hickory-hollow">Hickory Hollow</a></li>
 			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-high-hook-farms">High Hook Farms</a></li>
 											<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-high-pointe">High Pointe</a></li>
@@ -100,6 +104,7 @@
 			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-lighthouse-lakes">Lighthouse Lakes</a></li>
 			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-marsh-farm-estates">Marsh Farm Estates</a></li>
 			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-masseys-mill">Massey's Mill</a></li>
+			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/exclusive-offer-for-mendenhall-village">Mendenhall Village</a></li>
 			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-meridian-crossing">Meridian Crossing</a></li>
 			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/service-partner-plans-middle-creek-preserve">Middle Creek Preserve</a></li>
 			            					<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/service/welcome-to-your-new-home-in-milford-ponds">Milford Ponds</a></li>

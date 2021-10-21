@@ -12,11 +12,6 @@
 
 			</div>
 			<div class="col-sm">
-				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2020/07/10year-solid-border_0.png' ) . '" alt="" />' 
-				;?>
-
-			</div>
-			<div class="col-sm">
 				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2021/10/ArmyLogo.png' ) . '" alt="US Army" width="85" />' 
 				;?>
 
@@ -34,22 +29,17 @@
 		</div>
 		<div class="row pb-2 text-center affiliate-row">
 			<div class="col-sm">
-				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2020/07/home_advisor_logo.jpg' ) . '" alt="HomeAdvisor Screened & Approved Contractor Logo" />' 
-				;?>
-				
-			</div>
-			<div class="col-sm">
 				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2020/07/step-logo_1_orig.png' ) . '" alt="" />' 
 				;?>
 
 			</div>
 			<div class="col-sm">
-				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2020/07/angies-list-award-solar-san-diego.jpg' ) . '" alt="Angie’s List 2013 Super Service Award logo" />' 
+				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2020/07/hpac_da-award_2013_logo.jpg' ) . '" alt="HPAC Engineering Design Awards 2013 logo" />' 
 				;?>
 
 			</div>
 			<div class="col-sm">
-				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2020/07/hpac_da-award_2013_logo.jpg' ) . '" alt="HPAC Engineering Design Awards 2013 logo" />' 
+				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid pt-3" src="' . esc_url( $uploads['baseurl'] . '/2021/10/ACCA.png' ) . '" alt="" width="100" />' 
 				;?>
 
 			</div>

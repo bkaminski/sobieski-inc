@@ -33,7 +33,7 @@
 </div>
 <div class="row">
 	<div class="col-sm-9">
-		<p class="text-white small">Copyright &copy; <?php echo the_date('Y'); ?> | Sobieski Services, Inc. | 1325 Old Cooch's Bridge Road, Newark, DE 19713 | <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
+		<p class="text-white small">Copyright &copy; <?php echo date('Y'); ?> | Sobieski Services, Inc. | 1325 Old Cooch's Bridge Road, Newark, DE 19713 | <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
 	</div>
 	<div class="col-sm-3">
 		<ul class="list-inline">

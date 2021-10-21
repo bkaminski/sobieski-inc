@@ -28,10 +28,6 @@ get_header(); ?>
 	<?php get_template_part( 'parts/page', 'career-comments' ); ?>
 
 </section>
-<section>
-	<?php get_template_part( 'parts/page', 'contact-us' ); ?>
-
-</section>
 
 <?php get_template_part( 'parts/page', 'home-header' ); ?>
 

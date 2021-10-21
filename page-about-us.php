@@ -22,6 +22,6 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/page', 'home-header' ); ?>
 
-<?php get_template_part( 'parts/page', 'affiliates' ); ?>
+<?php get_template_part( 'parts/page', 'affiliates-custom' ); ?>
 
 <?php get_footer(); ?>

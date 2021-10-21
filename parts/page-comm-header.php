@@ -4,7 +4,7 @@
 			<div class="col-md-4 kill-padding">
 				<div class="prop-own text-center">
 					<h1 class="text-white text-uppercase text-center h3 font-weight-bold">Business &amp; Property <br /> Owners</h1>
-					<a href="<?php echo get_home_url(); ?>/audience/business-property-owners" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Learn More</a>
+					<a href="<?php echo get_home_url(); ?>/commercial/about-us" class="btn btn-outline-sobieski-white rounded-0 text-uppercase mt-3 pr-4 pl-4 pt-2 pb-2 mb-4 font-weight-bold text-uppercase">Learn More</a>
 				</div>
 			</div>
 			<div class="col-md-4 kill-padding">

@@ -9,13 +9,18 @@
 get_header(); ?>
 <?php get_template_part( 'parts/page', 'blog-loop' ); ?> 
 
-<?php get_template_part( 'parts/page', 'builder-contact' ); ?>
+<?php if( is_page( array( 10534, 10532, 10530, 10528, 10526 ) ) ) {
+	//do nothing
+} else {
 
-<?php get_template_part( 'parts/home', 'geo-map'); ?>
+	get_template_part( 'parts/home', 'geo-map');
 
-<?php get_template_part( 'parts/page', 'rand-posts' ); ?>
+	get_template_part( 'parts/page', 'rand-posts' );
 
-<?php get_template_part( 'parts/page', 'testimonials'); ?>
+	get_template_part( 'parts/page', 'testimonials');
+
+} ?>
+
 
 <?php get_template_part( 'parts/page', 'affiliates' ); ?>
 

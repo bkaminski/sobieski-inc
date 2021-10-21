@@ -99,3 +99,16 @@ function register_newsletter_cpt() {
     'taxonomies'  => array( 'category' ),
   ]);
 }
+
+// ================================================================================================ //
+
+add_action('init', 'register_whats_happening_cpt');
+function register_whats_happening_cpt() {
+  register_post_type('happenings', [
+    'label' => 'Happenings',
+    'public' => true, 
+    'capability_type' => 'post',
+    'supports' => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'revisions', 'page-attributes', ),
+    'taxonomies'  => array( 'category' ),
+  ]);
+}

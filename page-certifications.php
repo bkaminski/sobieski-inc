@@ -133,10 +133,6 @@ get_header(); ?>
 		</div>
 	</div>
 	<section>
-		<?php get_template_part( 'parts/page', 'contact-us' ); ?>
-
-	</section>
-	<section>
 		<?php get_template_part( 'parts/page', 'home-header' ); ?>
 
 	</section>

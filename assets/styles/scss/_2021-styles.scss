@@ -1,6 +1,6 @@
 .logo-img-2021 {
 	position: absolute;
-	margin-top: -8px;
+	margin-top: -30px;
 }
 .bg-sobieski {
 	background: rgba(255, 255, 255, 0.80);
@@ -14,8 +14,8 @@
 	background-repeat: no-repeat;
 	position: relative;
 	margin-top: -57px;
-	//opacity: 0.75;
 }
+
 .nav-item-2021 {
 	padding-right: 1.3rem;
 	font-weight: bold;
@@ -35,17 +35,6 @@
 	padding-left: 1rem;
 	border: 2px solid #1F508B;
 }
-.promo-cta {
-	position: absolute;
-	bottom: 0;
-	margin-bottom: 2rem;
-	width: 100%;
-	min-height: 120px;
-	background: rgba(31, 80, 139, 0.75);
-	text-align: right;
-	padding-right: 10rem;
-	z-index: 0;
-}
 .tech-img {
 	position: absolute;
 	bottom: 0;
@@ -54,12 +43,6 @@
 }
 .text-shadow {
 	text-shadow: 4px 2px #000;
-}
-.hero-heading {
-	position: absolute;
-	right: 0;
-	margin-top: 12rem;
-	margin-right: 12rem;
 }
 .home-cta-btn {
 	margin-left: 15rem;
@@ -71,7 +54,7 @@
 }
 .service-bg-img {
 	width: 100%;
-	height: 500px;
+	min-height: 500px;
 	background-image: url('../../../../uploads/2020/06/sobieski-tech-replacement.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -84,18 +67,55 @@
 }
 .van-area {
 	width: 100%;
-	min-height: 500px;
+	min-height: 400px;
 	position: relative;
 }
 .red-bar {
-	background: #af2525;
+	background: #0AA5FF;
 	width: 100%;
-	height: 250px;
+	min-height: 250px;
 }
 .sobi-truck {
 	position: absolute;
 	right: 0;
 	margin-top: -100px;
+	width: 700px;
+}
+@media (min-width: 1515px) {
+	.truck-text {
+		font-size: 1.4rem;
+	}
+}
+@media (max-width: 1515px) {
+	.sobi-truck {
+		width: 500px;
+		margin-top: -75px;
+	}
+	.truck-text {
+		font-size: 1.4rem;
+	}
+}
+@media (max-width: 1255px) {
+	.sobi-truck {
+		width: 400px;
+		margin-top: -45px;
+	}
+	
+}
+@media (max-width: 1166px) {
+	.sobi-truck {
+		width: 400px;
+		margin-top: -45px;
+	}
+	.truck-text {
+		font-size: 0.9rem;
+	}
+}
+@media (max-width: 991px) {
+	.sobi-truck {
+		width: 200px;
+		margin-top: 0px;
+	}
 }
 .work-for-us {
 	width: 100%;
@@ -115,11 +135,178 @@
 	background-repeat: no-repeat;
 }
 .foot-logo {
-	margin-top: -55px;
+	margin-top: -57px;
 }
 .foot-services {
 	background: rgb(40,40,45);
 	background: linear-gradient(180deg, rgba(40,40,45,1) 0%, rgba(31,80,139,1) 14%, rgba(31,80,139,1) 97%);
 	width: 100%;
-	min-height: 400px;
+	min-height: 410px;
+}
+
+@media (min-width: 1500px) {
+	.hero-heading {
+		position: absolute;
+		right: 0;
+		margin-top: 12rem;
+		margin-right: 12rem;
+	}
+	.tech-pic {
+		margin-left: -100px;
+		width: 675px;
+	}
+	.top-heading-text {
+		font-size: 4rem;
+	}
+	.bottom-heading-text {
+		font-size: 5rem;
+	}
+	.promo-cta {
+		position: absolute;
+		bottom: 0;
+		margin-bottom: 2rem;
+		width: 100%;
+		min-height: 120px;
+		background: rgba(31, 80, 139, 0.75);
+		text-align: right;
+		padding-right: 10rem;
+		z-index: 0;
+	}
+	.promo-text {
+		font-size: 2rem;
+	}
+	.logo-img-2021 {
+		position: absolute;
+		margin-top: -30px;
+	}
+	.our-services-section {
+		padding-top: 7.5rem;
+	}
+}
+
+@media (min-width: 1260px) and (max-width: 1500px) {
+	.hero-heading {
+		position: absolute;
+		right: 0;
+		margin-top: 12rem;
+		margin-right: 3rem;	
+	}
+	.tech-pic {
+		margin-left: -200px;
+		width: 700px;
+	}
+	.top-heading-text {
+		font-size: 4rem;
+	}
+	.bottom-heading-text {
+		font-size: 5rem;
+	}
+	.promo-cta {
+		position: absolute;
+		bottom: 0;
+		margin-bottom: 2rem;
+		width: 100%;
+		min-height: 120px;
+		background: rgba(31, 80, 139, 0.75);
+		text-align: right;
+		padding-right: 10rem;
+		z-index: 0;
+	}
+	.promo-text {
+		font-size: 2rem;
+	}
+	.logo-img-2021 {
+		position: absolute;
+		margin-top: -30px;
+	}
+	.our-services-section {
+		padding-top: 7.5rem;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1260px) {
+	.hero-heading {
+		position: absolute;
+		right: 0;
+		margin-top: 12rem;
+		margin-right: 1rem;
+	}
+	.tech-pic {
+		margin-left: -220px;
+		width: 700px;
+	}
+	.top-heading-text {
+		font-size: 3rem;
+	}
+	.bottom-heading-text {
+		font-size: 4rem;
+	}
+	.promo-cta {
+		position: absolute;
+		bottom: 0;
+		margin-bottom: 2rem;
+		width: 100%;
+		min-height: 120px;
+		background: rgba(31, 80, 139, 0.75);
+		text-align: right;
+		padding-right: 1rem;
+		z-index: 0;
+	}
+	.promo-text {
+		font-size: 1.8rem;
+	}
+	.logo-img-2021 {
+		position: absolute;
+		margin-top: -30px;
+	}
+	.our-services-section {
+		padding-top: 7.5rem;
+	}
+}
+
+@media (max-width: 991px) {
+	.hero-heading {
+		position: relative;
+		margin-top: 4rem;
+	}
+	.tech-pic {
+		display: none;
+	}
+	.top-heading-text {
+		font-size: 3rem;
+		text-align: center;
+	}
+	.bottom-heading-text {
+		font-size: 4rem;
+		text-align: center;
+	}
+	.promo-cta {
+		position: absolute;
+		bottom: 0;
+		margin-bottom: 2rem;
+		width: 100%;
+		min-height: 120px;
+		background: rgba(31, 80, 139, 0.75);
+		text-align: center;
+		padding-right: 1rem;
+		z-index: 0;
+	}
+	.promo-text {
+		font-size: 1.8rem;
+	}
+	.logo-img-2021 {
+		position: absolute;
+		margin-top: -30px;
+		left: 0;
+		margin-left: 10px;
+	}
+	.new-collapse {
+		padding-top: 3rem;
+	}
+	.home-cta-btn {
+		display: none;
+	}
+	.our-services-section {
+		padding-top: 3.5rem;
+	}
 }
