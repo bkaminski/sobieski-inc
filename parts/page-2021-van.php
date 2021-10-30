@@ -3,10 +3,10 @@
 		<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/06/sobieski-truck.png" class="img-fluid sobi-truck" alt="Image of Sobieski Work Truck" />
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-3">
-					<p class="text-white h2 text-shadow font-weight-bold">&bull; Honesty</p>
-					<p class="text-white h2 text-shadow font-weight-bold">&bull; Respect</p>
-					<p class="text-white h2 text-shadow font-weight-bold">&bull; Family</p>
+				<div class="col-lg-3 fade--up">
+					<p class="text-white h2 text-shadow font-weight-bold bullet--fade">&bull; Honesty</p>
+					<p class="text-white h2 text-shadow font-weight-bold bullet--fade">&bull; Respect</p>
+					<p class="text-white h2 text-shadow font-weight-bold bullet--fade">&bull; Family</p>
 				</div>
 				<div class="col-lg-9 text-white">
 					<p class="truck-text">As a part of the Sobieski family, you can trust our<br />

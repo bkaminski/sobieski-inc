@@ -16,6 +16,16 @@ function enqueue_site_styles() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_site_styles');
 
+//CONDITIONAL SCRIPTS/CSS
+function enqueue_waypoints_deps() {
+	if ( is_page('homeowner') ) {
+		wp_enqueue_script('waypoints', get_template_directory_uri() . '/assets/js/waypoints.min.js', array('jquery'), null, true, null);
+		wp_enqueue_script('waypoints-triggers', get_template_directory_uri() . '/assets/js/waypoints-scripts.js', array('jquery'), null, true, null);
+		wp_enqueue_style('animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css', array(), null);
+	};
+}
+add_action('wp_enqueue_scripts', 'enqueue_waypoints_deps');
+
 // Register Custom Navigation Walker
 require_once get_template_directory() . '/functions/class-wp-bootstrap-navwalker.php';
 register_nav_menus( array(

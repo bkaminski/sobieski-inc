@@ -1,4 +1,4 @@
-<?php if (is_page(10821)) {
+<?php if (is_page('homeowner')) {
 	get_template_part( 'parts/page', '2021-footer' );
 } else { ?>
 <footer class="footer">

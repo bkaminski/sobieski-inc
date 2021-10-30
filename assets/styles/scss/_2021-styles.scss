@@ -45,7 +45,7 @@
 	text-shadow: 4px 2px #000;
 }
 .home-cta-btn {
-	margin-left: 15rem;
+	margin-left: 10rem;
 }
 .sobieski-home-services {
 	width: 100%;
@@ -76,10 +76,20 @@
 	min-height: 250px;
 }
 .sobi-truck {
+	visibility: hidden;
 	position: absolute;
 	right: 0;
 	margin-top: -100px;
 	width: 700px;
+}
+.sobi-truck-show {
+	visibility: visible;
+}
+.bullet--fade {
+	visibility: hidden;
+}
+.bullet-fade-show {
+	visibility: visible;
 }
 @media (min-width: 1515px) {
 	.truck-text {
@@ -147,16 +157,24 @@
 @media (min-width: 1500px) {
 	.hero-heading {
 		position: absolute;
-		right: 0;
+		left: 0;
 		margin-top: 12rem;
-		margin-right: 12rem;
+		margin-left: 30rem;
 	}
 	.tech-pic {
+		visibility: hidden;
 		margin-left: -100px;
 		width: 675px;
 	}
+	.tech-pic-show {
+		visibility: visible;
+	}
 	.top-heading-text {
+		visibility: hidden;
 		font-size: 4rem;
+	}
+	.top-heading-text-show {
+		visibility: visible;
 	}
 	.bottom-heading-text {
 		font-size: 5rem;
@@ -173,7 +191,11 @@
 		z-index: 0;
 	}
 	.promo-text {
+		visibility: hidden;
 		font-size: 2rem;
+	}
+	.promo-text-show {
+		visibility: visible;
 	}
 	.logo-img-2021 {
 		position: absolute;
