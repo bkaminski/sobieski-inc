@@ -16,4 +16,6 @@ get_header(); ?>
 
 <?php get_template_part( 'parts/page', '2021-van' ); ?>
 
+<?php get_template_part( 'parts/home', 'savings' ); ?>
+
 <?php get_footer(); ?>

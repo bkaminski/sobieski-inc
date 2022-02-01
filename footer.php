@@ -1,10 +1,10 @@
-<?php if (is_page('homeowner')) {
+<?php if (is_page(10821)) {
 	get_template_part( 'parts/page', '2021-footer' );
 } else { ?>
 <footer class="footer">
 <a href="#" id="scroll" style="display: none;"><span></span></a>
 	<div class="container">
-		<h2 class="foot-heading">Sign up for our newsletter</h2>
+		<h2 class="foot-heading">Sign up for our newsletter to receive EXCLUSIVE offers!</h2>
 
 		<?php get_template_part( 'parts/page', 'footer-mailchimp' ); ?>
 
@@ -28,6 +28,13 @@
  } else {
  	//nothing
  } ?>
+
+ <?php if ( is_page( array(3556, 3552, 4007, 10053, 10821, 10238, 6731, 6704, 6750) ) ) {
+    echo get_template_part('parts/page', '2022-all-modals'); 
+ } else {
+    //nothing
+ } ?>
+
  
 </body>
 </html>

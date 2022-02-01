@@ -45,16 +45,19 @@
 	<div class="collapse navbar-collapse" id="sobieskiNav" style="background: transparent;">
 		<ul class="navbar-nav mx-auto new-collapse">
 			<li class="nav-item nav-item-2021">
-				<a class="nav-link" href="commercial">Commercial</a>
+				<a href="service-category/heating-air-conditioning/" class="nav-link" href="about">Heating</a>
 			</li>
 			<li class="nav-item nav-item-2021">
-				<a class="nav-link" href="audience/home-builders/">Home Builder</a>
+				<a href="service-category/heating-air-conditioning/" class="nav-link" href="careers">Air Conditioning</a>
 			</li>
 			<li class="nav-item nav-item-2021">
-				<a class="nav-link" href="about">About Us</a>
+				<a href="service-category/plumbing-drain-services/" class="nav-link" href="careers">Plumbing</a>
 			</li>
 			<li class="nav-item nav-item-2021">
-				<a class="nav-link" href="careers">Careers</a>
+				<a href="homeowner-promotions" class="nav-link" href="careers">Promotions</a>
+			</li>
+			<li class="nav-item nav-item-2021">
+				<a href="guide/enter-contact-info-below-be-contacted-about-ensuring-your-new-homes-equipment-warranty/" class="nav-link" href="careers">Neighborhoods</a>
 			</li>
 			<li class="nav-item nav-item-2021">
 				<a class="nav-link sobieski-search-modal d-none d-lg-block" href="#"><i class="fas fa-search fa-lg"></i></a>

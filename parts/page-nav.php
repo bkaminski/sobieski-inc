@@ -44,7 +44,7 @@
 		</div>
 		<div class="col-lg-4 text-center">
 			<div class="phone-numbers">
-				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
+				<p class="font-weight-bold">Commercial: 302-993-0600 | Homeowner: 866-477-4404</p>
 			</div>
 		</div>
 		<div class="col-lg-4">
@@ -64,7 +64,7 @@
 	<div class="row">
 		<div class="col-lg-6 text-center">
 			<div class="phone-numbers">
-				<p class="font-weight-bold">Commercial: 866-477-4394 | Homeowner: 866-477-4404</p>
+				<p class="font-weight-bold">Commercial: 302-993-0600 | Homeowner: 866-477-4404</p>
 			</div>
 		</div>
 		<div class="col-lg-6 text-center">

@@ -5,8 +5,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-6 our-services-section">
-					<h4 class="d-none d-lg-block font-weight-bold text-white h1 text-shadow our-services-heading" style="font-size: 5rem;"><span style="padding-left:4.5rem;">Our</span><br />Services</h4>
-					<h4 class="d-block d-lg-none text-center font-weight-bold text-white h1 text-shadow our-services-heading" style="font-size: 5rem;">Our<br />Services</h4>
+					<h4 class="d-none d-lg-block font-weight-bold text-white h1 text-shadow our-services-heading" style="font-size: 5rem;"><span>Upgrade</span><br />Today</h4>
+					<h4 class="d-block d-lg-none text-center font-weight-bold text-white h1 text-shadow our-services-heading" style="font-size: 5rem;">Upgrade<br />Today</h4>
 				</div>
 				<div class="col-lg-5 pt-5 text-right" style="padding-right: 4.43rem;">
 					<div class="btn-group-vertical">
@@ -31,7 +31,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="sobieski-reviews pt-3">
+	<div class="sobieski-reviews pt-4">
 		<h4 class="h1 text-center blue-text font-weight-bold">See what it's like to be in the Sobieski Family:</h4>
 		<?php get_template_part( 'parts/page', 'testimonials-service' ); ?>
 	</div>

@@ -54,7 +54,7 @@ get_header();  ?>
 			</div>
 		</div>
 		<div class="row pt-5 pb-5">
-			<div class="col-lg-6 text-center">
+			<div class="col-lg-6 text-center pb-4">
 				<a href="<?php echo the_field('coupon_image_1_link'); ?>">
 					<img src="<?php echo the_field('coupon_image_1'); ?>" class="img-fluid" alt="<?php echo the_field('coupon_image_1_alt'); ?>" />
 				</a>

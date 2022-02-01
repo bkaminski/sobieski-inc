@@ -6,7 +6,12 @@
 </article>
 
 <section>
-	<?php get_template_part( 'parts/page', 'affiliates' ); ?>
+	<?php get_template_part( 'parts/page', '2021-offers' ); ?>
+
+</section>
+
+<section>
+	<?php get_template_part( 'parts/home', 'savings' ); ?>
 
 </section>
 

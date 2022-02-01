@@ -12,7 +12,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -43,7 +42,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -74,7 +72,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -105,7 +102,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -137,7 +133,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -167,8 +162,7 @@
 				<?php echo the_field('hvac_coupon_modal_content_2', 'option'); ?>
 					
 			</div>
-			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
+			<div class="modal-footer promo-footer text-center">	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -199,7 +193,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -229,8 +222,7 @@
 				<?php echo the_field('hvac_coupon_modal_content_4', 'option'); ?>
 					
 			</div>
-			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
+			<div class="modal-footer promo-footer text-center">	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -248,6 +240,45 @@
 </div>
 <!-- END HVAC MODALS -->
 
+<!-- START HVAC MODALS 2 -->
+<div class="modal hide fade" id="p99" tabindex="-1" role="dialog" aria-labelledby="p99Label" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content" style="border-radius: 0rem;border: 10px solid #1F508B;">
+			<div class="modal-header promo-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body promo-modal">
+				<?php echo the_field('hvac_coupon_modal_content_p99', 'option'); ?>
+					
+			</div>
+			<div class="modal-footer promo-footer text-center">
+				<a href="service/2022-off-complete-high-efficency-installations/" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold">Find out More</a>
+				<div class="container">
+					<div class="row pt-2">
+						<div class="col-md-6 text-left red-text">
+							<small><?php echo the_field('hvac_p99_disclaimer', 'option'); ?></small>
+						</div>
+						<div class="col-md-6 text-right">
+							<img src="<?php echo get_home_url(); ?>/wp-content/uploads/2020/08/Sobieski-Homeowner.png" width="125" class="img-fluid" alt="Sobieski Logo Image" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- END HVAC MODALS 2 -->
+
+
+
+
+
 <!-- START IAQ MODALS -->
 <div class="modal hide fade" id="p9" tabindex="-1" role="dialog" aria-labelledby="p9Label" aria-hidden="true">
 	<div class="modal-dialog modal-lg">
@@ -262,7 +293,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -293,7 +323,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -324,7 +353,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -355,7 +383,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -387,7 +414,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -418,7 +444,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -448,8 +473,7 @@
 				<?php echo the_field('warranty_coupon_modal_content_3', 'option'); ?>
 					
 			</div>
-			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
+			<div class="modal-footer promo-footer text-center">	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
@@ -480,7 +504,6 @@
 					
 			</div>
 			<div class="modal-footer promo-footer text-center">
-				<button class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase font-weight-bold" onclick="ScheduleEngine.show();"><i class="far fa-calendar-alt fa-fw fa-lg mr-2"></i>Schedule Online</button>	
 				<a href="tel:18664774404" class="btn btn-sobieski-promo-red mb-3 rounded-0 text-uppercase pl-4 pr-4 font-weight-bold"><i class="fas fa-mobile-alt fa-fw fa-lg mr-2"></i>(866) 477-4404</a>
 				<div class="container">
 					<div class="row pt-2">
