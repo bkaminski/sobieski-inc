@@ -416,3 +416,38 @@ $width: 18em;
 			background: darken( #0AA5FF, 0%);
 		}
 	}}
+
+.page-template-page-newsletter-php > .container > .col-lg-12 .excerpt-button {
+	display: none;
+}
+.page-template-page-whats-happening-php > .container > .col-lg-12 .excerpt-button {
+	display: none;
+}
+.reviews {
+  width: 100%;
+  min-height: 380px;
+  background: #fff;
+  padding-top: 1.5rem;
+}
+.page-id-11356 h1.blog-header {
+	font-size: 3rem;
+}
+.title-wrapper::before {
+  content: "";
+  background: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+}
+.foot-link {
+	position: relative;
+	color: #fff;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		color: #0AA5FF;
+		transition: 0.3s ease-in-out;
+	}
+}

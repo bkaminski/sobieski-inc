@@ -1,4 +1,4 @@
-<?php if (is_page(10821)) {
+<?php if (is_page(array (10821, 9018)) ){
 	get_template_part( 'parts/page', '2021-footer' );
 } else { ?>
 <footer class="footer">
@@ -35,6 +35,5 @@
     //nothing
  } ?>
 
- 
 </body>
 </html>
