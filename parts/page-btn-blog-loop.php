@@ -9,7 +9,7 @@
 				</div>
 			</div>
 		<div class="container text-center">
-			<h1 class="blog-header text-white text-uppercase text-center pt-0 font-weight-bold"><?php the_title(); ?></h1>
+			<h1 class="blog-header text-white text-uppercase text-center pt-5 font-weight-bold" style="text-shadow: 3px 3px 0px #222;"><?php the_title(); ?></h1>
 		</div>
 	</div>
 	<div class="mt-5 pb-5">

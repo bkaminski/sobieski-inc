@@ -4,7 +4,7 @@
 <div class="title-wrapper"<?php if( empty( $featImg ) ) { $featImg = ''; } if( $featImg ):?> style="background: url('<?php echo $featImg['0'];?>');background-size: cover;"><?php endif;?>>
 
 	<div class="container">
-		<h1 class="blog-header text-white text-uppercase text-center pt-5 font-weight-bold"><?php the_title(); ?></h1>
+		<h1 class="blog-header text-white text-uppercase text-center pt-5 font-weight-bold" style="text-shadow:3px 3px 0px #222;"><?php the_title(); ?></h1>
 	</div>
 </div>
 <div class="container">

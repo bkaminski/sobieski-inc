@@ -6,8 +6,6 @@
   
 get_header();  ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<br />
-	<br />
 	<div class="container pt-5 pb-5">
 		<div class="col text-center pb-5">
 			<img src="<?php echo the_field('header_image');?>" class="img-fluid pb-5" alt="<?php echo the_field('header_image_alt'); ?>" />
@@ -70,10 +68,11 @@ get_header();  ?>
 			<p><?php echo the_field('footer_top_image_caption'); ?></p>
 
 		</div>
-		<div class="col-lg-12 text-center pt-5">
+		<div class="col-lg-12 text-center pt-5 pb-5">
 			<img src="<?php echo the_field('footer_bottom_image'); ?>" class="img-fluid" alt="<?php echo the_field('footer_bottom_image_alt'); ?>" />
 			<p><?php echo the_field('footer_bottom_image_caption'); ?></p>
-
+			<br />
+			<br />
 		</div>
 				
 		<?php endwhile; else : ?>

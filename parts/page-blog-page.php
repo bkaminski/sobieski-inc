@@ -3,7 +3,7 @@
 	
 	<div class="title-wrapper" style="background-image:url('<?php echo $backgroundImg[0]; ?>');background-repeat: no-repeat;background-size: cover;">
 		<div class="container">
-			<h1 class="main-header-hero text-white text-uppercase text-center pt-5 font-weight-bold">Blog</h1>
+			<h1 class="main-header-hero text-white text-uppercase text-center pt-5 font-weight-bold" style="text-shadow: 3px 3px 0px #222;">Blog</h1>
 		</div>
 	</div>
 	<div class="blog-desc">

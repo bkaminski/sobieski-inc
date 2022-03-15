@@ -18,7 +18,7 @@ function sobieski_pagination($pages = '', $range = 1)
     
     if (1 != $pages) {
         echo "<nav aria-label='Blog Navigation pagination'>";
-        echo "<ul class='pagination justify-content-center'>";
+        echo "<ul class='pagination justify-content-left'>";
         echo "<li class='page-item'>";
         if ($paged > 2 && $paged > $range + 1 && $showitems < $pages)
             echo "<a class='page-link' aria-label='First Page' href='" . get_pagenum_link(1) . "'>

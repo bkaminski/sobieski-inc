@@ -1,5 +1,5 @@
 <div class="affiliates">
-	<div class="container pt-5">
+	<div class="container pt-5 pb-5">
 		<div class="row pb-2 affiliate-row text-center">
 			<div class="col-sm">
 				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid pt-4" src="' . esc_url( $uploads['baseurl'] . '/2020/07/rses.gif' ) . '" alt="" />' 
@@ -54,7 +54,7 @@
 
 			</div>
 		</div>
-		<div class="row affiliate-row">
+		<div class="row affiliate-row pb-5">
 			<div class="center-on-mobile1 col-xs-6 col-sm">
 				<?php $uploads = wp_upload_dir(); echo '<img class="img-fluid" src="' . esc_url( $uploads['baseurl'] . '/2020/07/dcalogo_side_full_300rgb_trans.png' ) . '" alt="" />' 
 				;?>

@@ -27,5 +27,5 @@
 </script>
 <section class="promo-hero pt-5">
 	<div class="container-fluid text-center">
-		<h1 class="text-white text-uppercase main-heading-h1" style="padding-top: 8rem;">Homeowner Promotions</h1>
+		<h1 class="text-white text-uppercase main-heading-h1" style="padding-top: 8rem;text-shadow: 3px 3px 0px #222;">Homeowner Promotions</h1>
 </section>

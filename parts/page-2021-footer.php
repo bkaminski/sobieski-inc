@@ -1,19 +1,11 @@
 <footer class="footer-2021">
 	<a href="#" id="scroll" style="display: none;"><span></span></a>
-	<div class="footer-bg"></div>
+	<?php if (is_page('10821')) { ?>
+		<div class="footer-bg"></div>
+	<?php } ?>
 	<div class="foot-logo text-center"><img src="<?php echo get_home_url();?>/wp-content/uploads/2020/06/Sobieski-Homeowner.png" width="250" class="img-fluid" alt="Sobieski Homeowners Logo" /></div>
 	<div class="foot-services foot-logo pt-5 pb-5">
 		<div class="container pt-5">
-			<div class="row">
-				<div class="container pb-5">
-					<div class="col-lg">
-						<div class="alert alert-sobi-blue rounded-0" role="alert">
-						<h4 class="text-white text-center pb-4">Subscribe to our newsletter for EXCLUSIVE offers:</h4>
-						<?php echo do_shortcode('[mc4wp_form id="8383"]'); ?>
-						</div>
-					</div>
-				</div>
-			</div>
 			<div class="row" style="padding-left: 4rem;">
 				<div class="col-md-4 text-white">
 					<h5 class="font-weight-bold h4"><a class="foot-link" href="homeowner">Homeowner Services</a></h5>
@@ -35,7 +27,8 @@
 					<h5 class="font-weight-bold h4"><a class="foot-link" href="audience/home-builders">Homebuilder Services</a></h5>
 					<ul class="list-unstyled">
 						<li><a href="audience/about-regional-and-national-homebuilders" class="foot-link">Regional / National Builders</a></li>
-						<li><a href="audience/the-sobieski-experience" class="foot-link">Custom Home Builders</li></a>
+						<li class="mb-2"><a href="audience/the-sobieski-experience" class="foot-link">Custom Home Builders</li></a>
+						<li><a class="btn btn-sm btn-sobieski-promo-red" data-toggle="modal" data-target="#chimpModal">Subscribe for Exclusive Offers</a></li>
 					</ul>
 				</div>
 			</div>
@@ -60,4 +53,23 @@
 		</div>
 	</div>
 </footer>
+<!-- MailChimp Modal -->
+<div class="modal fade" id="chimpModal" tabindex="-1" aria-labelledby="chimpModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Subscribe for Exclusive Offers</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[mc4wp_form id="8383"]'); ?>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-sobieski-promo-red" data-dismiss="modal">&times; Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 

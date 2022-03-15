@@ -26,11 +26,10 @@
 				<?php esc_html_e( 'Sorry, we could not find what you were searching for, please try again.' ); ?>
 				<?php endif; ?>	
 			</div>
-		</div>
-		<div class="col">
-			<?php echo sobieski_pagination(); ?>
+			<div class="col" style="z-index: 999;">
+				<?php echo sobieski_pagination(); ?>
 				
+			</div>
 		</div>
 	</div>
-</div>
 <?php get_footer(); ?>
