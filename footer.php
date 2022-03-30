@@ -16,7 +16,7 @@
  	//nothing
  } ?>
 
- <?php if ( is_page( array(3556, 3552, 4007, 10053, 10821, 10238, 6731, 6704, 6750) ) ) {
+ <?php if ( is_page( array(3556, 3552, 4007, 10053, 10821, 6731, 6704, 6750) ) ) {
     echo get_template_part('parts/page', '2022-all-modals'); 
  } else {
     //nothing
