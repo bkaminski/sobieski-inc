@@ -12,7 +12,6 @@ function enqueue_site_styles() {
     wp_enqueue_style('bootstrap-4.5.0', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css', array(), null);
     wp_enqueue_style('theme-styles', get_template_directory_uri() . '/assets/styles/siteStyles.min.css');
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap', false);
-    wp_enqueue_style('font-awesome-pro', 'https://pro.fontawesome.com/releases/v5.15.3/css/all.css', false);
 }
 add_action('wp_enqueue_scripts', 'enqueue_site_styles');
 
@@ -32,3 +31,24 @@ register_nav_menus( array(
     'primary' => __( 'Primary Menu', 'sobieski-inc' ),
 ));
 // Nav Walker
+
+/**
+ * Font Awesome Kit Setup
+ * 
+ * This will add your Font Awesome Kit to the front-end, the admin back-end,
+ * and the login screen area.
+ */
+if (! function_exists('fa_custom_setup_kit') ) {
+  function fa_custom_setup_kit($kit_url = '') {
+    foreach ( [ 'wp_enqueue_scripts', 'admin_enqueue_scripts', 'login_enqueue_scripts' ] as $action ) {
+      add_action(
+        $action,
+        function () use ( $kit_url ) {
+          wp_enqueue_script( 'font-awesome-kit', $kit_url, [], null );
+        }
+      );
+    }
+  }
+}
+
+fa_custom_setup_kit('https://kit.fontawesome.com/b843419930.js');
